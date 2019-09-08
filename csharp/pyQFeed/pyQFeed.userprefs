@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{4AB7CFB6-FE56-46F4-8FAB-3F47F3DE8FC3}|Default">
+  <MonoDevelop.Ide.ItemProperties.pyQFeed PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pyQFeed/Program.cs">
+    <Files>
+      <File FileName="pyQFeed/Program.cs" Line="18" Column="10" />
+      <File FileName="../PrimeTrader/IQFeed/HistoryFeed.cs" Line="259" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

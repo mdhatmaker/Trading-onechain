@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51EA339C-CB6D-4384-92B3-874DDB849F12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataProvider.Providers.Basic</RootNamespace>
+    <AssemblyName>DataProvider.Providers.Basic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EZCustomRangeSelectorControl">
+      <HintPath>..\..\lib\EZCustomRangeSelectorControl\bin\Release\EZCustomRangeSelectorControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.12.0.4518.1014\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DPModifyChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyChart.designer.cs">
+      <DependentUpon>DPModifyChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderChart.cs" />
+    <Compile Include="DPModifyMomentum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyMomentum.designer.cs">
+      <DependentUpon>DPModifyMomentum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderMomentum.cs" />
+    <Compile Include="DPDisplayUserTimeSpan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplayUserTimeSpan.Designer.cs">
+      <DependentUpon>DPDisplayUserTimeSpan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderUserTimeSpan.cs" />
+    <Compile Include="DPModifyExcel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyExcel.Designer.cs">
+      <DependentUpon>DPModifyExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderExcel.cs" />
+    <Compile Include="DPDisplaySimpleDescription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplaySimpleDescription.Designer.cs">
+      <DependentUpon>DPDisplaySimpleDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderTimeRange.cs" />
+    <Compile Include="DPModifyTradeDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyTradeDetail.Designer.cs">
+      <DependentUpon>DPModifyTradeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndicatorParametersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndicatorParametersControl.Designer.cs">
+      <DependentUpon>IndicatorParametersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyDailyTimeRangeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModifyDailyTimeRangeControl.Designer.cs">
+      <DependentUpon>ModifyDailyTimeRangeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderTradeDetail.cs" />
+    <Compile Include="DataProviderWeeklyTimeRange.cs" />
+    <Compile Include="DPModifyFoo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyFoo.designer.cs">
+      <DependentUpon>DPModifyFoo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataProviderCurrentTime.cs" />
+    <Compile Include="DataProviderMarketData.cs" />
+    <Compile Include="DataProviderRandomNumber.cs" />
+    <Compile Include="DataProviderUserDecimal.cs" />
+    <Compile Include="DataProviderUserInteger.cs" />
+    <Compile Include="DataProviderUserTime.cs" />
+    <Compile Include="DPModifyTimeRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyTimeRange.Designer.cs">
+      <DependentUpon>DPModifyTimeRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPModifyMarketData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyMarketData.designer.cs">
+      <DependentUpon>DPModifyMarketData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPModifyRandomNumber.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyRandomNumber.Designer.cs">
+      <DependentUpon>DPModifyRandomNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPModifyWeeklyTimeRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPModifyWeeklyTimeRange.Designer.cs">
+      <DependentUpon>DPModifyWeeklyTimeRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPDisplaySimpleValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplaySimpleValue.Designer.cs">
+      <DependentUpon>DPDisplaySimpleValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPDisplayUserDecimal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplayUserDecimal.Designer.cs">
+      <DependentUpon>DPDisplayUserDecimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPDisplayUserInteger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplayUserInteger.Designer.cs">
+      <DependentUpon>DPDisplayUserInteger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPDisplayUserTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DPDisplayUserTime.Designer.cs">
+      <DependentUpon>DPDisplayUserTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TestTimeRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestTimeRangeForm.Designer.cs">
+      <DependentUpon>TestTimeRangeForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DPModifyChart.resx">
+      <DependentUpon>DPModifyChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyMomentum.resx">
+      <DependentUpon>DPModifyMomentum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplayUserTimeSpan.resx">
+      <DependentUpon>DPDisplayUserTimeSpan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyExcel.resx">
+      <DependentUpon>DPModifyExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplaySimpleDescription.resx">
+      <DependentUpon>DPDisplaySimpleDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyTradeDetail.resx">
+      <DependentUpon>DPModifyTradeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndicatorParametersControl.resx">
+      <DependentUpon>IndicatorParametersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyDailyTimeRangeControl.resx">
+      <DependentUpon>ModifyDailyTimeRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyFoo.resx">
+      <DependentUpon>DPModifyFoo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyTimeRange.resx">
+      <DependentUpon>DPModifyTimeRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyMarketData.resx">
+      <DependentUpon>DPModifyMarketData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyRandomNumber.resx">
+      <DependentUpon>DPModifyRandomNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPModifyWeeklyTimeRange.resx">
+      <DependentUpon>DPModifyWeeklyTimeRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplaySimpleValue.resx">
+      <DependentUpon>DPDisplaySimpleValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplayUserDecimal.resx">
+      <DependentUpon>DPDisplayUserDecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplayUserInteger.resx">
+      <DependentUpon>DPDisplayUserInteger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPDisplayUserTime.resx">
+      <DependentUpon>DPDisplayUserTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestTimeRangeForm.resx">
+      <DependentUpon>TestTimeRangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.CTS\EZAPI.CTS.csproj">
+      <Project>{464554c6-3223-476f-94fc-bcb3d4ad735e}</Project>
+      <Name>EZAPI.CTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Data\EZAPI.Data.csproj">
+      <Project>{643d7c8d-ba2d-42fd-8cb2-7b077459544c}</Project>
+      <Name>EZAPI.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Toolbox\EZAPI.Toolbox.csproj">
+      <Project>{2907d3ae-86ed-443e-bf42-f51fe4b1c809}</Project>
+      <Name>EZAPI.Toolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\DataProvider.csproj">
+      <Project>{defbc4c1-9630-4890-8544-f38a2be51f82}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>rem "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv" $(ProjectPath) /clean</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

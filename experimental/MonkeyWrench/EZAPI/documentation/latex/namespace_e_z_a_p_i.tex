@@ -1,0 +1,61 @@
+\hypertarget{namespace_e_z_a_p_i}{\section{Package E\-Z\-A\-P\-I}
+\label{namespace_e_z_a_p_i}\index{E\-Z\-A\-P\-I@{E\-Z\-A\-P\-I}}
+}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+package \hyperlink{namespace_e_z_a_p_i_1_1_containers}{Containers}
+\item 
+package \hyperlink{namespace_e_z_a_p_i_1_1_properties}{Properties}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_e_z_a_p_i_1_1_account_form}{Account\-Form}
+\item 
+class \hyperlink{class_e_z_a_p_i_1_1_a_p_i_login_form}{A\-P\-I\-Login\-Form}
+\item 
+class \hyperlink{class_e_z_a_p_i_1_1_main_form}{Main\-Form}
+\item 
+class \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{T\-T\-A\-P\-I\-Functions}
+\begin{DoxyCompactList}\small\item\em This class contains the base-\/level functionality for \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+class {\bfseries T\-T\-A\-P\-I\-Functions\-Helper}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Login\-Result} \{ {\bfseries O\-K}, 
+{\bfseries Cancel}
+ \}
+\item 
+enum {\bfseries Login\-Type} \{ {\bfseries Universal}, 
+{\bfseries X\-Trader}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_e_z_a_p_i_ab5703ccfe825844eba82f428bc724251}{delegate void {\bfseries Initialize\-Handler} (bool success, string message)}\label{namespace_e_z_a_p_i_ab5703ccfe825844eba82f428bc724251}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_a3f9886f2637135635b544d3ac5cf0c76}{delegate void {\bfseries Instrument\-Found\-Handler} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument, bool success)}\label{namespace_e_z_a_p_i_a3f9886f2637135635b544d3ac5cf0c76}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_ac5323afdd34bb5010fb09cd7caee1086}{delegate void {\bfseries Inside\-Market\-Handler} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument)}\label{namespace_e_z_a_p_i_ac5323afdd34bb5010fb09cd7caee1086}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_a988355cc15874187fd7698567e7f86aa}{delegate void {\bfseries Market\-Depth\-Handler} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth}{T\-T\-Market\-Depth} market\-Depth)}\label{namespace_e_z_a_p_i_a988355cc15874187fd7698567e7f86aa}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_ac98a61e2d4ddc7aa3afad41ec817419c}{delegate void {\bfseries Fill\-Handler} (\hyperlink{namespace_e_z_a_p_i_1_1_containers_ac4a10657ec0024847b9518e0ad75e16e}{Fill\-Originator} originator, \hyperlink{namespace_e_z_a_p_i_1_1_containers_ac44efd9b58d9e3746dcc24b165d19169}{Fill\-Action} action, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill} fill, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill} new\-Fill)}\label{namespace_e_z_a_p_i_ac98a61e2d4ddc7aa3afad41ec817419c}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_a2228b474c7387756934d39783f61f2d2}{delegate void {\bfseries Order\-Handler} (\hyperlink{namespace_e_z_a_p_i_1_1_containers_a195b281517d19ae193243894635d7547}{T\-T\-Order\-Status} status, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} order, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} new\-Order)}\label{namespace_e_z_a_p_i_a2228b474c7387756934d39783f61f2d2}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_af43b9dbd25c5f34b5e93e8f3fb6b1c8f}{delegate void {\bfseries System\-Message\-Handler} (System\-Message system\-Message)}\label{namespace_e_z_a_p_i_af43b9dbd25c5f34b5e93e8f3fb6b1c8f}
+
+\item 
+\hypertarget{namespace_e_z_a_p_i_a4a181f6f2fc307e2e81c78c8a8c87317}{delegate void {\bfseries Time\-And\-Sales\-Handler} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tt\-Instrument, Date\-Time time\-Stamp, Price L\-T\-P, Quantity L\-T\-Q, Trade\-Direction direction, bool is\-O\-T\-C)}\label{namespace_e_z_a_p_i_a4a181f6f2fc307e2e81c78c8a8c87317}
+
+\end{DoxyCompactItemize}

@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{E5A08C3B-7A00-43FB-AD74-5FC0C8AA0086}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Tools/MyQuandl.cs">
+    <Files>
+      <File FileName="JSON/Program.cs" Line="33" Column="45" />
+      <File FileName="../CryptoAPIs/CryptoStats.cs" Line="7" Column="21" />
+      <File FileName="../Tools/MyQuandl.cs" Line="124" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JSON" expanded="True">
+            <Node name="CryptoAPIsCore" expanded="True" />
+            <Node name="JSON" expanded="True" />
+            <Node name="ToolsCore" expanded="True">
+              <Node name="MyQuandl.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/GDAX.cs" relfile="JSON/GDAX.cs" line="20" column="44" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/Tools.cs" relfile="JSON/Tools.cs" line="22" column="40" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/GDAX.cs" relfile="JSON/GDAX.cs" line="19" column="65" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/Tools.cs" relfile="JSON/Tools.cs" line="55" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/CryptoCoinCharts.cs" relfile="JSON/CryptoCoinCharts.cs" line="20" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/Cex.cs" relfile="JSON/Cex.cs" line="20" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/Cex.cs" relfile="JSON/Cex.cs" line="14" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/JSON/JSON/MyQuandl.cs" relfile="JSON/MyQuandl.cs" line="123" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/PythonUI/Tools/MyQuandl.cs" line="130" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.JSON PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>../CryptoAPIs/CryptoAPIs.csproj</String>
+    <String>../Tools/Tools.csproj</String>
+    <String>CryptoAPIsCore/CryptoAPIsCore.csproj</String>
+    <String>Tools/Tools.csproj</String>
+  </DisabledProjects>
+</Properties>

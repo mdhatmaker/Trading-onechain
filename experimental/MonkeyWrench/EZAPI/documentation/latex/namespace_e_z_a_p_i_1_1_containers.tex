@@ -1,0 +1,123 @@
+\hypertarget{namespace_e_z_a_p_i_1_1_containers}{\section{Package E\-Z\-A\-P\-I.\-Containers}
+\label{namespace_e_z_a_p_i_1_1_containers}\index{E\-Z\-A\-P\-I.\-Containers@{E\-Z\-A\-P\-I.\-Containers}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor}
+\begin{DoxyCompactList}\small\item\em An \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} object contains all the information necessary to construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} object. For example, if you know the 4 strings necessary to construct an order (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}, \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{}, \char`\"{}\-C\-L\char`\"{}, \char`\"{}\-Nov12\char`\"{}), you can create an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} and then create a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} using that \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor}. \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_order_route}{Order\-Route}
+\begin{DoxyCompactList}\small\item\em This class holds the information for Order\-Feed, Account\-Name and Account\-Type \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill}
+\begin{DoxyCompactList}\small\item\em This class encapsulates the information for a fill in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument}
+\begin{DoxyCompactList}\small\item\em This class encapsulates the information about a specific instrument (i.\-e. C\-M\-E C\-L Nov12) \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth}{T\-T\-Market\-Depth}
+\begin{DoxyCompactList}\small\item\em This class maintains market depth (used for each instrument when market depth is subscribed) \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_level}{T\-T\-Market\-Depth\-Level}
+\begin{DoxyCompactList}\small\item\em This class holds one level of market depth \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order}
+\begin{DoxyCompactList}\small\item\em A \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} object contains all the information necessary to maintain, modify, etc. an order within the A\-P\-I \end{DoxyCompactList}\item 
+class \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread}
+\begin{DoxyCompactList}\small\item\em This class is used to create \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} objects which are derived from the \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespace_e_z_a_p_i_1_1_containers_ac44efd9b58d9e3746dcc24b165d19169}{Fill\-Action} \{ \\*
+{\bfseries A\-D\-D} = 0, 
+{\bfseries A\-M\-E\-N\-D} = 1, 
+{\bfseries D\-E\-L\-E\-T\-E} = 2, 
+{\bfseries L\-I\-S\-T\-\_\-\-S\-T\-A\-R\-T} = 3, 
+\\*
+{\bfseries L\-I\-S\-T\-\_\-\-E\-N\-D} = 4, 
+{\bfseries B\-O\-O\-K\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D} = 5
+ \}
+\begin{DoxyCompactList}\small\item\em A Fill\-Action is used to describe the action of the Fill event messages received by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+enum \hyperlink{namespace_e_z_a_p_i_1_1_containers_ac4a10657ec0024847b9518e0ad75e16e}{Fill\-Originator} \{ {\bfseries T\-R\-A\-D\-E\-R} = 0, 
+{\bfseries A\-D\-M\-I\-N} = 1, 
+{\bfseries B\-O\-O\-K} = 2
+ \}
+\begin{DoxyCompactList}\small\item\em A Fill\-Originator specifies from whom the Fill event messages received by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} originate \end{DoxyCompactList}\item 
+enum {\bfseries System\-Message} \{ \\*
+{\bfseries T\-R\-A\-D\-E\-\_\-\-S\-U\-B\-S\-C\-R\-I\-P\-T\-I\-O\-N\-\_\-\-R\-E\-S\-E\-T}, 
+{\bfseries R\-O\-L\-L\-O\-V\-E\-R}, 
+{\bfseries F\-I\-L\-L\-\_\-\-L\-I\-S\-T\-\_\-\-S\-T\-A\-R\-T}, 
+{\bfseries F\-I\-L\-L\-\_\-\-L\-I\-S\-T\-\_\-\-E\-N\-D}, 
+\\*
+{\bfseries O\-R\-D\-E\-R\-\_\-\-B\-O\-O\-K\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D}, 
+{\bfseries F\-I\-L\-L\-\_\-\-B\-O\-O\-K\-\_\-\-D\-O\-W\-N\-L\-O\-A\-D}, 
+{\bfseries U\-N\-R\-E\-C\-O\-V\-E\-R\-A\-B\-L\-E\-\_\-\-P\-R\-I\-C\-E\-\_\-\-E\-R\-R\-O\-R}
+ \}
+\item 
+enum \hyperlink{namespace_e_z_a_p_i_1_1_containers_a195b281517d19ae193243894635d7547}{T\-T\-Order\-Status} \{ \\*
+{\bfseries Added}, 
+{\bfseries Updated}, 
+{\bfseries Deleted}, 
+{\bfseries Filled}, 
+\\*
+{\bfseries Rejected}, 
+{\bfseries Unknown}, 
+{\bfseries None}
+ \}
+\begin{DoxyCompactList}\small\item\em Current status of this order to indicate if it was last added, updated, deleted, etc. \end{DoxyCompactList}\item 
+enum {\bfseries T\-T\-Modify} \{ {\bfseries Price}, 
+{\bfseries Quantity}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate void \hyperlink{namespace_e_z_a_p_i_1_1_containers_aeae814d91b819efed065a366c6f45cf2}{T\-T\-Order\-Modify\-Handler} (T\-T\-Modify modify, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} order, Price price, Quantity quantity)
+\begin{DoxyCompactList}\small\item\em This delegate is used to notify the \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} of any changes that need to be made to the order \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{namespace_e_z_a_p_i_1_1_containers_ac44efd9b58d9e3746dcc24b165d19169}{\index{E\-Z\-A\-P\-I\-::\-Containers@{E\-Z\-A\-P\-I\-::\-Containers}!Fill\-Action@{Fill\-Action}}
+\index{Fill\-Action@{Fill\-Action}!EZAPI::Containers@{E\-Z\-A\-P\-I\-::\-Containers}}
+\subsubsection[{Fill\-Action}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf E\-Z\-A\-P\-I.\-Containers.\-Fill\-Action}}}\label{namespace_e_z_a_p_i_1_1_containers_ac44efd9b58d9e3746dcc24b165d19169}
+
+
+A Fill\-Action is used to describe the action of the Fill event messages received by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{namespace_e_z_a_p_i_1_1_containers_ac4a10657ec0024847b9518e0ad75e16e}{\index{E\-Z\-A\-P\-I\-::\-Containers@{E\-Z\-A\-P\-I\-::\-Containers}!Fill\-Originator@{Fill\-Originator}}
+\index{Fill\-Originator@{Fill\-Originator}!EZAPI::Containers@{E\-Z\-A\-P\-I\-::\-Containers}}
+\subsubsection[{Fill\-Originator}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf E\-Z\-A\-P\-I.\-Containers.\-Fill\-Originator}}}\label{namespace_e_z_a_p_i_1_1_containers_ac4a10657ec0024847b9518e0ad75e16e}
+
+
+A Fill\-Originator specifies from whom the Fill event messages received by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} originate 
+
+\hypertarget{namespace_e_z_a_p_i_1_1_containers_a195b281517d19ae193243894635d7547}{\index{E\-Z\-A\-P\-I\-::\-Containers@{E\-Z\-A\-P\-I\-::\-Containers}!T\-T\-Order\-Status@{T\-T\-Order\-Status}}
+\index{T\-T\-Order\-Status@{T\-T\-Order\-Status}!EZAPI::Containers@{E\-Z\-A\-P\-I\-::\-Containers}}
+\subsubsection[{T\-T\-Order\-Status}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Order\-Status}}}\label{namespace_e_z_a_p_i_1_1_containers_a195b281517d19ae193243894635d7547}
+
+
+Current status of this order to indicate if it was last added, updated, deleted, etc. 
+
+
+
+\subsection{Function Documentation}
+\hypertarget{namespace_e_z_a_p_i_1_1_containers_aeae814d91b819efed065a366c6f45cf2}{\index{E\-Z\-A\-P\-I\-::\-Containers@{E\-Z\-A\-P\-I\-::\-Containers}!T\-T\-Order\-Modify\-Handler@{T\-T\-Order\-Modify\-Handler}}
+\index{T\-T\-Order\-Modify\-Handler@{T\-T\-Order\-Modify\-Handler}!EZAPI::Containers@{E\-Z\-A\-P\-I\-::\-Containers}}
+\subsubsection[{T\-T\-Order\-Modify\-Handler}]{\setlength{\rightskip}{0pt plus 5cm}delegate void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Order\-Modify\-Handler (
+\begin{DoxyParamCaption}
+\item[{T\-T\-Modify}]{modify, }
+\item[{T\-T\-Order}]{order, }
+\item[{Price}]{price, }
+\item[{Quantity}]{quantity}
+\end{DoxyParamCaption}
+)}}\label{namespace_e_z_a_p_i_1_1_containers_aeae814d91b819efed065a366c6f45cf2}
+
+
+This delegate is used to notify the \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} of any changes that need to be made to the order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em modify} & Type of modification (price, quantity)\\
+\hline
+{\em order} & \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} object to modify\\
+\hline
+{\em price} & New price (Price.\-Invalid if changing quantity)\\
+\hline
+{\em quantity} & New quantity (Quantity.\-Invalid if changing price)\\
+\hline
+\end{DoxyParams}

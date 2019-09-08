@@ -1,0 +1,28 @@
+1080p scaled to 720p (or 720p native)
+10 minutes
+
+VIDEO 1 - "One Chain Capital Trader Suite"
+Overview
+Meet Hat!
+Watch him dance!
+
+VIDEO 2 - "Hedging a client order"
+Client "Buy 50 BTC"
+Pick "BTC/USD"
+Look at Markets (Aggregator)
+[+] BUY/SELL buttons
+[+] EDGE text box
+Click Buy/Sell
+Multiple order to multiple exchanges
+=====
+[+] P2 Balance inventory across markets
+=====
+CryptoTrader
+Individual orders to a specific exchange
+
+VIDEO 3 - "Research"
+Historical Data (button)
+
+VIDEO 4 - "Automated trading"
+Strategy - Automated trade
+Algo - Algorithmic utomated trade

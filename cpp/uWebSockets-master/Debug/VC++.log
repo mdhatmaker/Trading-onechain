@@ -1,0 +1,18 @@
+﻿  Epoll.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Extensions.cpp
+  Group.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  HTTPSocket.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Hub.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Networking.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Node.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Socket.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  WebSocket.cpp
+x:\git\source\cpp\uwebsockets-master\src\Libuv.h(4): fatal error C1083: Cannot open include file: 'uv.h': No such file or directory
+  Generating Code...

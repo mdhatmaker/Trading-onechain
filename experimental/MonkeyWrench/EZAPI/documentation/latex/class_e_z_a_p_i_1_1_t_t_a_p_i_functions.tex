@@ -1,0 +1,552 @@
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{\section{E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions Class Reference}
+\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}\index{E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions}}
+}
+
+
+This class contains the base-\/level functionality for \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I}  
+
+
+Inheritance diagram for E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2760d5cc3dc3edbfb39343cbafce3f03}{T\-T\-A\-P\-I\-Functions} (bool auto\-Subscribe\-Instruments, bool subscribe\-Market\-Depth, bool subscribe\-Time\-And\-Sales)
+\begin{DoxyCompactList}\small\item\em Construct an empty \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{T\-T\-A\-P\-I\-Functions} object \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a4fd760f106af454949316283c1258c20}{T\-T\-A\-P\-I\-Functions} (bool auto\-Subscribe\-Instruments, bool subscribe\-Market\-Depth, bool subscribe\-Time\-And\-Sales, string username, string password)
+\begin{DoxyCompactList}\small\item\em Construct a \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{T\-T\-A\-P\-I\-Functions} object using the specified username/password \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a7c2be102d31ca7b07e43715551fc9c89}{Dispose} ()
+\begin{DoxyCompactList}\small\item\em Shutdown and clean up the T\-T\-A\-P\-I \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac19b8330185ee424edd79aabe8f052aa}{Start\-X\-T\-Mode} ()
+\begin{DoxyCompactList}\small\item\em Start T\-T\-A\-P\-I in X\-Trader mode \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aefd00d47e6002a58725e19568968ee6e}{Init\-X\-T\-Mode} ()
+\begin{DoxyCompactList}\small\item\em Initialize the T\-T\-A\-P\-I in X\-Trader mode \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a585ec57b8001bf532c138dc0e1afebf8}{tt\-Api\-X\-T\-Mode\-Init\-Complete} (X\-Trader\-Mode\-T\-T\-A\-P\-I api, Exception ex)
+\begin{DoxyCompactList}\small\item\em Notifies us when initialization is complete (and whether it was successful) \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a764705a793ffd5ba96930f03c3f1313b}{Start\-Universal} ()
+\begin{DoxyCompactList}\small\item\em Start T\-T\-A\-P\-I in Universal Login mode \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0764af9142d5b87f7b3d29518575dc05}{Init} ()
+\begin{DoxyCompactList}\small\item\em Initialize T\-T\-A\-P\-I in Universal Login mode \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a63ad034dd530bdc22620c9aa2c8f592c}{tt\-Api\-Init\-Complete} (Universal\-Login\-T\-T\-A\-P\-I api, Exception ex)
+\begin{DoxyCompactList}\small\item\em Notifies us when initialization is complete (and whether it was successful) \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a1a30701e1112d6924e5fdd163807668b}{Get\-Instrument} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Retrieve an instrument (T\-T\-Instrument) given an Instrument\-Key \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3dd6508809c54570cf3febd2f16b2672}{Get\-Instrument} (string search)
+\begin{DoxyCompactList}\small\item\em Retrieve a T\-T\-Instrument whose name contains the string value passed. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a713e7b5792408c432f31a825ee74a97b}{Get\-Orders} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Retrieve a list of all orders in the system (working and not working) \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2abb48f9e5c38dcac115fccb493d1792}{Get\-Fills} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Retrieve a list of all fills in the system (current and non-\/current) \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_afdbf19a7fa3e0880d1e336d24b7f79ce}{Subscribe\-To\-Instrument} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} descriptor)
+\begin{DoxyCompactList}\small\item\em Subscribe to an instrument using an Instrument\-Descriptor \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a27f344df275d1a24f403a9444a2391e3}{Subscribe\-To\-Instrument} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Subscribe to an instrument using only the Instrument\-Key \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0ba98a1fd49a33baa8ae1eae18a08326}{Subscribe\-To\-Spread} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Subscribe to a Autospreader instrument with the specified instrument key \end{DoxyCompactList}\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aa1f9e57638cf41f3d9d199906c75fc3f}{\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} {\bfseries Buy\-Limit} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tti, int quantity, double price)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aa1f9e57638cf41f3d9d199906c75fc3f}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a09686dbe6bf0f0c3acf4992b10422f56}{\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} {\bfseries Sell\-Limit} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tti, int quantity, double price)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a09686dbe6bf0f0c3acf4992b10422f56}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2ae9ccf7bb7ba094d0418d4cab641e9c}{\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} {\bfseries Buy\-Market} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tti, int quantity)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2ae9ccf7bb7ba094d0418d4cab641e9c}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a801e23230e1eb63a6d6e5ebf8ce56109}{\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} {\bfseries Sell\-Market} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} tti, int quantity)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a801e23230e1eb63a6d6e5ebf8ce56109}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a583a99adc65f93a779d4527edad310ce}{\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} {\bfseries Send\-Order} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} instrument, Buy\-Sell buy\-Sell, Order\-Type order\-Type, Quantity quantity, Price price)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a583a99adc65f93a779d4527edad310ce}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_abf364743c983eb27b0bda16d5cc73827}{void {\bfseries Modify\-Price} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} order, Price price)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_abf364743c983eb27b0bda16d5cc73827}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a71e548aa8b357af607049b69440ccde2}{void {\bfseries Modify\-Quantity} (\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} order, Quantity quantity)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a71e548aa8b357af607049b69440ccde2}
+
+\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab2894b181243235acab3e9ad2d05145d}{Cancel\-All\-Orders} ()
+\begin{DoxyCompactList}\small\item\em Cancel all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ad64dab6312a4c8f952e76dcbce260e46}{Hold\-All\-Orders} (bool hold)
+\begin{DoxyCompactList}\small\item\em Hold or \char`\"{}remove-\/from-\/hold\char`\"{} all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac841e7c12c53a9ca6e0557335133936b}{virtual void {\bfseries Dispose} (bool disposing)}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac841e7c12c53a9ca6e0557335133936b}
+
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab4aee7e6bb8e8113fe04704c4a19e815}{Auto\-Subscribe\-Instruments}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Setting this property to true causes \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} to subscribe to any instruments for fills or orders that come through the system (so that the user does not have to subscribe to these explicitly) \end{DoxyCompactList}\item 
+bool \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2fa717eefc5d5f69004ac43e4368c9d0}{Subscribe\-Market\-Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Setting this property to true indicates the user wants to receive market depth events from \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+bool \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a96e35a16a2ba3b3975b0918562b12837}{Subscribe\-Time\-And\-Sales}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Setting this property to true indicates the user wants to receive time and sales events from \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a41f8b0400d89627208cdffc8b9eeb7f5}{Instruments}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Retrieve the instruments currently maintained by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_adad0bc014e4c2ab2908a9713823ec957}{Orders}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Retrieve all orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a287d18ca810f4a76e13f9bb081de50d6}{Working\-Orders}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Retrieve all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aaed71fb16d311ea46994643ff40eab8b}{Fills}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Retrieve all fills in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_fill}{T\-T\-Fill} $>$ \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a6a49dc7c0326a25deabb1857abc56cfe}{Current\-Fills}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Retrieve all current fills in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} (with amends, etc. already accounted for) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Initialize\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aa3e534f11319b72732f54427aabcaddf}{On\-Initialize}
+\begin{DoxyCompactList}\small\item\em On\-Initialize is fired when the \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} is initialized (successfully or not) \end{DoxyCompactList}\item 
+Instrument\-Found\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3212fe2094af653fbb44b82ec759cad0}{On\-Instrument\-Found}
+\begin{DoxyCompactList}\small\item\em This event is fired when an subscribed-\/to instrument is found in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+Inside\-Market\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a61d320755a386fecd0db718af12325e8}{On\-Inside\-Market\-Update}
+\begin{DoxyCompactList}\small\item\em This event is fired when the inside market is updated for any subscribed-\/to instrument in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+Market\-Depth\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aeef24116eebd75f30500949005c2f0b6}{On\-Market\-Depth}
+\begin{DoxyCompactList}\small\item\em This event is fired when a book depth update occurs for any subscribed-\/to instrument in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+Fill\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a89427d6aa5c073e4eae6857f65e0fe40}{On\-Fill}
+\begin{DoxyCompactList}\small\item\em This event is fired when a fill occurs in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} \end{DoxyCompactList}\item 
+Order\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac44004a93dc41d92a0f91c768761bc81}{On\-Order}
+\begin{DoxyCompactList}\small\item\em This event is fired when an order event occurs in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} (order added, deleted, etc.) \end{DoxyCompactList}\item 
+System\-Message\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a079bc7aa0ce092659ee404fdb2f32583}{On\-System\-Message}
+\begin{DoxyCompactList}\small\item\em A system message event sends information like session rollovers, fill book start/end, etc. \end{DoxyCompactList}\item 
+Time\-And\-Sales\-Handler \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a9e6460696db8d8d8e9e1723b887c63b7}{On\-Time\-And\-Sales}
+\begin{DoxyCompactList}\small\item\em This event is fired when a time and sales event occurs \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class contains the base-\/level functionality for \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+This class is responsible for communication with T\-T\-A\-P\-I
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2760d5cc3dc3edbfb39343cbafce3f03}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!T\-T\-A\-P\-I\-Functions@{T\-T\-A\-P\-I\-Functions}}
+\index{T\-T\-A\-P\-I\-Functions@{T\-T\-A\-P\-I\-Functions}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{T\-T\-A\-P\-I\-Functions}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-T\-T\-A\-P\-I\-Functions (
+\begin{DoxyParamCaption}
+\item[{bool}]{auto\-Subscribe\-Instruments, }
+\item[{bool}]{subscribe\-Market\-Depth, }
+\item[{bool}]{subscribe\-Time\-And\-Sales}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2760d5cc3dc3edbfb39343cbafce3f03}
+
+
+Construct an empty \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{T\-T\-A\-P\-I\-Functions} object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em auto\-Subscribe\-Instruments} & set to true to automatically subscribe to instruments in fills and orders\\
+\hline
+{\em subscribe\-Book\-Depth} & set to true to subscribe to book depth (false for inside market only)\\
+\hline
+{\em subscribe\-Book\-Depth} & set to true to subscribe to time and sales\\
+\hline
+\end{DoxyParams}
+
+
+In X\-Trader mode, no username or password are required\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a4fd760f106af454949316283c1258c20}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!T\-T\-A\-P\-I\-Functions@{T\-T\-A\-P\-I\-Functions}}
+\index{T\-T\-A\-P\-I\-Functions@{T\-T\-A\-P\-I\-Functions}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{T\-T\-A\-P\-I\-Functions}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-T\-T\-A\-P\-I\-Functions (
+\begin{DoxyParamCaption}
+\item[{bool}]{auto\-Subscribe\-Instruments, }
+\item[{bool}]{subscribe\-Market\-Depth, }
+\item[{bool}]{subscribe\-Time\-And\-Sales, }
+\item[{string}]{username, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a4fd760f106af454949316283c1258c20}
+
+
+Construct a \hyperlink{class_e_z_a_p_i_1_1_t_t_a_p_i_functions}{T\-T\-A\-P\-I\-Functions} object using the specified username/password 
+
+
+\begin{DoxyParams}{Parameters}
+{\em auto\-Subscribe\-Instruments} & set to true to automatically subscribe to instruments in fills and orders\\
+\hline
+{\em subscribe\-Book\-Depth} & set to true to subscribe to book depth (false for inside market only)\\
+\hline
+{\em subscribe\-Book\-Depth} & set to true to subscribe to time and sales\\
+\hline
+{\em username} & T\-T username to use for this T\-T\-A\-P\-I functions object\\
+\hline
+{\em password} & T\-T password to use for this T\-T\-A\-P\-I functions object\\
+\hline
+\end{DoxyParams}
+
+
+In Universal Login mode, a T\-T username and password are required
+
+\subsection{Member Function Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab2894b181243235acab3e9ad2d05145d}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Cancel\-All\-Orders@{Cancel\-All\-Orders}}
+\index{Cancel\-All\-Orders@{Cancel\-All\-Orders}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Cancel\-All\-Orders}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Cancel\-All\-Orders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab2894b181243235acab3e9ad2d05145d}
+
+
+Cancel all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a7c2be102d31ca7b07e43715551fc9c89}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a7c2be102d31ca7b07e43715551fc9c89}
+
+
+Shutdown and clean up the T\-T\-A\-P\-I 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2abb48f9e5c38dcac115fccb493d1792}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Get\-Fills@{Get\-Fills}}
+\index{Get\-Fills@{Get\-Fills}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Get\-Fills}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Fill}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Get\-Fills (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2abb48f9e5c38dcac115fccb493d1792}
+
+
+Retrieve a list of all fills in the system (current and non-\/current) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument\-Key of instrument in the requested fills\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of T\-T\-Fill objects representing all fills for the specified Instrument\-Key
+\end{DoxyReturn}
+
+
+Non-\/current fills would include amend fill messages, etc.\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a1a30701e1112d6924e5fdd163807668b}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Get\-Instrument@{Get\-Instrument}}
+\index{Get\-Instrument@{Get\-Instrument}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Get\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-T\-Instrument} E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Get\-Instrument (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a1a30701e1112d6924e5fdd163807668b}
+
+
+Retrieve an instrument (T\-T\-Instrument) given an Instrument\-Key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument key to look up\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+T\-T\-Instrument object associated with the specified Instrument\-Key
+\end{DoxyReturn}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3dd6508809c54570cf3febd2f16b2672}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Get\-Instrument@{Get\-Instrument}}
+\index{Get\-Instrument@{Get\-Instrument}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Get\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-T\-Instrument} E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Get\-Instrument (
+\begin{DoxyParamCaption}
+\item[{string}]{search}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3dd6508809c54570cf3febd2f16b2672}
+
+
+Retrieve a T\-T\-Instrument whose name contains the string value passed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em search} & text to look for in the instrument name (i.\-e. 'C\-L' or 'C\-L Nov12')\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a T\-T\-Instrument whose name contains your text (if one exists)
+\end{DoxyReturn}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a713e7b5792408c432f31a825ee74a97b}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Get\-Orders@{Get\-Orders}}
+\index{Get\-Orders@{Get\-Orders}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Get\-Orders}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Order}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Get\-Orders (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a713e7b5792408c432f31a825ee74a97b}
+
+
+Retrieve a list of all orders in the system (working and not working) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument\-Key of instrument in the requested orders\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of T\-T\-Order objects representing all orders for the specified Instrument\-Key
+\end{DoxyReturn}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ad64dab6312a4c8f952e76dcbce260e46}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Hold\-All\-Orders@{Hold\-All\-Orders}}
+\index{Hold\-All\-Orders@{Hold\-All\-Orders}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Hold\-All\-Orders}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Hold\-All\-Orders (
+\begin{DoxyParamCaption}
+\item[{bool}]{hold}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ad64dab6312a4c8f952e76dcbce260e46}
+
+
+Hold or \char`\"{}remove-\/from-\/hold\char`\"{} all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hold} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0764af9142d5b87f7b3d29518575dc05}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Init@{Init}}
+\index{Init@{Init}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Init}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0764af9142d5b87f7b3d29518575dc05}
+
+
+Initialize T\-T\-A\-P\-I in Universal Login mode 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aefd00d47e6002a58725e19568968ee6e}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Init\-X\-T\-Mode@{Init\-X\-T\-Mode}}
+\index{Init\-X\-T\-Mode@{Init\-X\-T\-Mode}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Init\-X\-T\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Init\-X\-T\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aefd00d47e6002a58725e19568968ee6e}
+
+
+Initialize the T\-T\-A\-P\-I in X\-Trader mode 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a764705a793ffd5ba96930f03c3f1313b}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Start\-Universal@{Start\-Universal}}
+\index{Start\-Universal@{Start\-Universal}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Start\-Universal}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Start\-Universal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a764705a793ffd5ba96930f03c3f1313b}
+
+
+Start T\-T\-A\-P\-I in Universal Login mode 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac19b8330185ee424edd79aabe8f052aa}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Start\-X\-T\-Mode@{Start\-X\-T\-Mode}}
+\index{Start\-X\-T\-Mode@{Start\-X\-T\-Mode}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Start\-X\-T\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Start\-X\-T\-Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac19b8330185ee424edd79aabe8f052aa}
+
+
+Start T\-T\-A\-P\-I in X\-Trader mode 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_afdbf19a7fa3e0880d1e336d24b7f79ce}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Subscribe\-To\-Instrument@{Subscribe\-To\-Instrument}}
+\index{Subscribe\-To\-Instrument@{Subscribe\-To\-Instrument}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Subscribe\-To\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Subscribe\-To\-Instrument (
+\begin{DoxyParamCaption}
+\item[{{\bf Instrument\-Descriptor}}]{descriptor}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_afdbf19a7fa3e0880d1e336d24b7f79ce}
+
+
+Subscribe to an instrument using an Instrument\-Descriptor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em descriptor} & Instrument\-Descriptor containing the instrument information\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a27f344df275d1a24f403a9444a2391e3}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Subscribe\-To\-Instrument@{Subscribe\-To\-Instrument}}
+\index{Subscribe\-To\-Instrument@{Subscribe\-To\-Instrument}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Subscribe\-To\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Subscribe\-To\-Instrument (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a27f344df275d1a24f403a9444a2391e3}
+
+
+Subscribe to an instrument using only the Instrument\-Key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument\-Key of the instrument to which we want to subscribe\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0ba98a1fd49a33baa8ae1eae18a08326}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Subscribe\-To\-Spread@{Subscribe\-To\-Spread}}
+\index{Subscribe\-To\-Spread@{Subscribe\-To\-Spread}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Subscribe\-To\-Spread}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Subscribe\-To\-Spread (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a0ba98a1fd49a33baa8ae1eae18a08326}
+
+
+Subscribe to a Autospreader instrument with the specified instrument key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument\-Key of the A\-S instrument to which we are subscribing\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a63ad034dd530bdc22620c9aa2c8f592c}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!tt\-Api\-Init\-Complete@{tt\-Api\-Init\-Complete}}
+\index{tt\-Api\-Init\-Complete@{tt\-Api\-Init\-Complete}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{tt\-Api\-Init\-Complete}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-tt\-Api\-Init\-Complete (
+\begin{DoxyParamCaption}
+\item[{Universal\-Login\-T\-T\-A\-P\-I}]{api, }
+\item[{Exception}]{ex}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a63ad034dd530bdc22620c9aa2c8f592c}
+
+
+Notifies us when initialization is complete (and whether it was successful) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em api} & T\-T\-A\-P\-I object to use (Universal Login mode)\\
+\hline
+{\em ex} & Exception that occurred during initialization (if any)\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a585ec57b8001bf532c138dc0e1afebf8}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!tt\-Api\-X\-T\-Mode\-Init\-Complete@{tt\-Api\-X\-T\-Mode\-Init\-Complete}}
+\index{tt\-Api\-X\-T\-Mode\-Init\-Complete@{tt\-Api\-X\-T\-Mode\-Init\-Complete}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{tt\-Api\-X\-T\-Mode\-Init\-Complete}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-tt\-Api\-X\-T\-Mode\-Init\-Complete (
+\begin{DoxyParamCaption}
+\item[{X\-Trader\-Mode\-T\-T\-A\-P\-I}]{api, }
+\item[{Exception}]{ex}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a585ec57b8001bf532c138dc0e1afebf8}
+
+
+Notifies us when initialization is complete (and whether it was successful) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em api} & A\-P\-I object to use (X\-Trader mode)\\
+\hline
+{\em ex} & Exception that occurred (if any)\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab4aee7e6bb8e8113fe04704c4a19e815}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Auto\-Subscribe\-Instruments@{Auto\-Subscribe\-Instruments}}
+\index{Auto\-Subscribe\-Instruments@{Auto\-Subscribe\-Instruments}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Auto\-Subscribe\-Instruments}]{\setlength{\rightskip}{0pt plus 5cm}bool E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Auto\-Subscribe\-Instruments\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ab4aee7e6bb8e8113fe04704c4a19e815}
+
+
+Setting this property to true causes \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} to subscribe to any instruments for fills or orders that come through the system (so that the user does not have to subscribe to these explicitly) 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a6a49dc7c0326a25deabb1857abc56cfe}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Current\-Fills@{Current\-Fills}}
+\index{Current\-Fills@{Current\-Fills}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Current\-Fills}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Fill}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Current\-Fills\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a6a49dc7c0326a25deabb1857abc56cfe}
+
+
+Retrieve all current fills in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} (with amends, etc. already accounted for) 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aaed71fb16d311ea46994643ff40eab8b}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Fills@{Fills}}
+\index{Fills@{Fills}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Fills}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Fill}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Fills\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aaed71fb16d311ea46994643ff40eab8b}
+
+
+Retrieve all fills in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+This property will likely not be used much compared to Current\-Fills\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a41f8b0400d89627208cdffc8b9eeb7f5}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Instruments@{Instruments}}
+\index{Instruments@{Instruments}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Instruments}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Instrument}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Instruments\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a41f8b0400d89627208cdffc8b9eeb7f5}
+
+
+Retrieve the instruments currently maintained by \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_adad0bc014e4c2ab2908a9713823ec957}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Orders@{Orders}}
+\index{Orders@{Orders}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Orders}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Order}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Orders\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_adad0bc014e4c2ab2908a9713823ec957}
+
+
+Retrieve all orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+This property will likely not be used much compared to Working\-Orders\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2fa717eefc5d5f69004ac43e4368c9d0}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Subscribe\-Market\-Depth@{Subscribe\-Market\-Depth}}
+\index{Subscribe\-Market\-Depth@{Subscribe\-Market\-Depth}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Subscribe\-Market\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}bool E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Subscribe\-Market\-Depth\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a2fa717eefc5d5f69004ac43e4368c9d0}
+
+
+Setting this property to true indicates the user wants to receive market depth events from \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a96e35a16a2ba3b3975b0918562b12837}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Subscribe\-Time\-And\-Sales@{Subscribe\-Time\-And\-Sales}}
+\index{Subscribe\-Time\-And\-Sales@{Subscribe\-Time\-And\-Sales}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Subscribe\-Time\-And\-Sales}]{\setlength{\rightskip}{0pt plus 5cm}bool E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Subscribe\-Time\-And\-Sales\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a96e35a16a2ba3b3975b0918562b12837}
+
+
+Setting this property to true indicates the user wants to receive time and sales events from \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a287d18ca810f4a76e13f9bb081de50d6}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!Working\-Orders@{Working\-Orders}}
+\index{Working\-Orders@{Working\-Orders}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{Working\-Orders}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf T\-T\-Order}$>$ E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-Working\-Orders\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a287d18ca810f4a76e13f9bb081de50d6}
+
+
+Retrieve all working orders in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+
+
+\subsection{Event Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a89427d6aa5c073e4eae6857f65e0fe40}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Fill@{On\-Fill}}
+\index{On\-Fill@{On\-Fill}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Fill}]{\setlength{\rightskip}{0pt plus 5cm}Fill\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Fill}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a89427d6aa5c073e4eae6857f65e0fe40}
+
+
+This event is fired when a fill occurs in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aa3e534f11319b72732f54427aabcaddf}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Initialize@{On\-Initialize}}
+\index{On\-Initialize@{On\-Initialize}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Initialize}]{\setlength{\rightskip}{0pt plus 5cm}Initialize\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Initialize}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aa3e534f11319b72732f54427aabcaddf}
+
+
+On\-Initialize is fired when the \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} is initialized (successfully or not) 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a61d320755a386fecd0db718af12325e8}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Inside\-Market\-Update@{On\-Inside\-Market\-Update}}
+\index{On\-Inside\-Market\-Update@{On\-Inside\-Market\-Update}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Inside\-Market\-Update}]{\setlength{\rightskip}{0pt plus 5cm}Inside\-Market\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Inside\-Market\-Update}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a61d320755a386fecd0db718af12325e8}
+
+
+This event is fired when the inside market is updated for any subscribed-\/to instrument in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3212fe2094af653fbb44b82ec759cad0}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Instrument\-Found@{On\-Instrument\-Found}}
+\index{On\-Instrument\-Found@{On\-Instrument\-Found}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Instrument\-Found}]{\setlength{\rightskip}{0pt plus 5cm}Instrument\-Found\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Instrument\-Found}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a3212fe2094af653fbb44b82ec759cad0}
+
+
+This event is fired when an subscribed-\/to instrument is found in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aeef24116eebd75f30500949005c2f0b6}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Market\-Depth@{On\-Market\-Depth}}
+\index{On\-Market\-Depth@{On\-Market\-Depth}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Market\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}Market\-Depth\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Market\-Depth}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_aeef24116eebd75f30500949005c2f0b6}
+
+
+This event is fired when a book depth update occurs for any subscribed-\/to instrument in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} 
+
+This event is only fired if Subscribe\-Market\-Depth is set to true\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac44004a93dc41d92a0f91c768761bc81}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Order@{On\-Order}}
+\index{On\-Order@{On\-Order}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Order}]{\setlength{\rightskip}{0pt plus 5cm}Order\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Order}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_ac44004a93dc41d92a0f91c768761bc81}
+
+
+This event is fired when an order event occurs in \hyperlink{namespace_e_z_a_p_i}{E\-Z\-A\-P\-I} (order added, deleted, etc.) 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a079bc7aa0ce092659ee404fdb2f32583}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-System\-Message@{On\-System\-Message}}
+\index{On\-System\-Message@{On\-System\-Message}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-System\-Message}]{\setlength{\rightskip}{0pt plus 5cm}System\-Message\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-System\-Message}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a079bc7aa0ce092659ee404fdb2f32583}
+
+
+A system message event sends information like session rollovers, fill book start/end, etc. 
+
+\hypertarget{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a9e6460696db8d8d8e9e1723b887c63b7}{\index{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}!On\-Time\-And\-Sales@{On\-Time\-And\-Sales}}
+\index{On\-Time\-And\-Sales@{On\-Time\-And\-Sales}!EZAPI::TTAPIFunctions@{E\-Z\-A\-P\-I\-::\-T\-T\-A\-P\-I\-Functions}}
+\subsubsection[{On\-Time\-And\-Sales}]{\setlength{\rightskip}{0pt plus 5cm}Time\-And\-Sales\-Handler E\-Z\-A\-P\-I.\-T\-T\-A\-P\-I\-Functions.\-On\-Time\-And\-Sales}}\label{class_e_z_a_p_i_1_1_t_t_a_p_i_functions_a9e6460696db8d8d8e9e1723b887c63b7}
+
+
+This event is fired when a time and sales event occurs 
+
+These events are fired only if the Subscribe\-Time\-And\-Sales is set to true
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Michael/\-Documents/\-Visual Studio 2010/\-Projects/\-E\-Z\-A\-P\-I/\-E\-Z\-A\-P\-I/T\-T\-A\-P\-I\-Functions.\-cs\end{DoxyCompactItemize}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>discosultan</Authors>
+    <Description>Client for Kraken bitcoin exchange API.</Description>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/discosultan/KrakenCore/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/discosultan/KrakenCore</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/discosultan/KrakenCore/releases</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/discosultan/KrakenCore/master/KrakenLogo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/discosultan/KrakenCore</RepositoryUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>1.0.0-alpha07</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+
+</Project>

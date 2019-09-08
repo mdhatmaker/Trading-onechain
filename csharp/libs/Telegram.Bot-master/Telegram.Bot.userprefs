@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B662E909-CF8B-47C6-BAA8-FCA595BA53EA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Telegram.Bot.Tests.Integ/Sending Messages/TextMessageTests.cs">
+    <Files>
+      <File FileName="src/Telegram.Bot/TelegramBotClient.cs" Line="25" Column="45" />
+      <File FileName="test/Telegram.Bot.Tests.Integ/Sending Messages/TextMessageTests.cs" Line="44" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test.Telegram.Bot.Tests.Integ PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

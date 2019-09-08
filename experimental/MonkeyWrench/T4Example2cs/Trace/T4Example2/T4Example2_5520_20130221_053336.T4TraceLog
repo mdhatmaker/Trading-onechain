@@ -1,0 +1,166 @@
+﻿<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="T4TraceListener version: [4.0.20.0]" s="0" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Windows version: [Microsoft Windows NT 6.1.7601 Service Pack 1 - Windows 7]" s="1" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Microsoft .Net Framework version detected [4.0.30319.18034], expecting [4.0.30319.269], 64bit" s="2" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="GC.IsServerGC: [False], GC.LatencyMode: [Interactive], Debugger.IsAttached: [True]" s="3" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Environment: UserDomainName: [Michael-HP], UserName: [Michael], UserInteractive: [True]" s="4" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Processor: [Architecture: AMD64, Level: 21, Revision: 0102, Identifier: AMD64 Family 21 Model 1 Stepping 2, AuthenticAMD, Cores: 6]" s="5" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Timezone: [(UTC-06:00) Central Time (US &amp; Canada)]" s="6" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="TraceListeners UseGlobalLock=False, System.Diagnostics.DefaultTraceListener (NOT ThreadSafe), T4.TraceListener.T4TraceListener" s="7" />
+<i d="2013-02-21T05:33:36.7648014-06:00" t="10" c="API" m="Host::New Using ServerURL: http://server.sim.t4login.com" s="1" />
+<i d="2013-02-21T05:33:36.7718018-06:00" t="10" c="API" m="Host::GetServerConfig" s="2" />
+<i d="2013-02-21T05:33:36.7768021-06:00" t="10" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator_T4Example.xml]" s="3" />
+<i d="2013-02-21T05:33:37.0508177-06:00" t="6" c="Data" m="T4TraceListener::CheckFreeDiskSpace Current Free Disk Space: 743,181mb" s="1" />
+<i d="2013-02-21T05:33:37.1808252-06:00" t="10" c="Error" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator_T4Example.xml?dt=634970216167768021] Error: System.Net.WebException: The remote server returned an error: (404) Not Found./n/r   at System.Net.HttpWebRequest.GetResponse()/n/r   at T4.API.Host.GetServerConfigFile(String psURL)" s="4" />
+<i d="2013-02-21T05:33:37.1828253-06:00" t="10" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator.xml]" s="5" />
+<i d="2013-02-21T05:33:37.3108326-06:00" t="10" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/GetServers.aspx?firm=CTS&amp;user=MHatmak&amp;app=T4Example&amp;sys=2]" s="6" />
+<i d="2013-02-21T05:33:37.3928373-06:00" t="10" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim10.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="7" />
+<i d="2013-02-21T05:33:37.3938373-06:00" t="10" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim11.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="8" />
+<i d="2013-02-21T05:33:37.3948374-06:00" t="10" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim9.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="9" />
+<i d="2013-02-21T05:33:37.3988376-06:00" t="10" c="API" m="Host::GetServerConfig NewVersionAvailable: False, NewVersionRequired: False" s="10" />
+<i d="2013-02-21T05:33:37.4068381-06:00" t="10" c="API" m="Performance::CreateWriteCounters Creating Counters" s="11" />
+<i d="2013-02-21T05:33:37.4078381-06:00" t="10" c="API" m="Performance::CreateWriteCounters Created Counters" s="12" />
+<i d="2013-02-21T05:33:37.4378399-06:00" t="10" c="Connection" m="Connection::CreateConnection Connecting to [T4Sim11]" s="13" />
+<i d="2013-02-21T05:33:37.4408400-06:00" t="10" c="Connection" m="ConnectionThread::New MaxConnectionsPerThreadGroup: 10" s="14" />
+<i d="2013-02-21T05:33:37.4448403-06:00" t="10" c="Connection" m="Connection::New [SSL, &lt;uninitialised&gt;, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Sim11], Server: False, ReceiveQueue: False" s="15" />
+<i d="2013-02-21T05:33:37.4488405-06:00" t="10" c="Connection" m="Performance::CreateCounters Created Counters" s="16" />
+<i d="2013-02-21T05:33:37.4548408-06:00" t="10" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807]" s="17" />
+<i d="2013-02-21T05:33:37.4568410-06:00" t="10" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807] Creating new group" s="18" />
+<i d="2013-02-21T05:33:37.4588411-06:00" t="10" c="Connection" m="ConnectionThread::ThreadGroup::New Type [SSLConnection]" s="19" />
+<i d="2013-02-21T05:33:37.4718418-06:00" t="10" c="Connection" m="ConnectionThread::ThreadGroup::Add Type [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc], Count: 1" s="20" />
+<i d="2013-02-21T05:33:37.4738419-06:00" t="10" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807] Connection added, total now: 1, Groups: 1" s="21" />
+<i d="2013-02-21T05:33:37.4828424-06:00" t="10" c="Connection" m="BaseSSLConnection::StartSocket [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Skipping Start as no socket" s="22" />
+<i d="2013-02-21T05:33:37.4838425-06:00" t="10" c="API" m="HostConnection::SetupConnection Connection Created: T4Example-ExecuteAndQuote, 3F4D4763-C74D-40D9-8077-2F474B796807, sim11.t4login.com:443" s="23" />
+<i d="2013-02-21T05:33:37.4848426-06:00" t="10" c="Connection" m="Connection::Connect [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote]" s="24" />
+<i d="2013-02-21T05:33:37.4688416-06:00" t="17" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadConnection [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc] Starting" s="1" />
+<i d="2013-02-21T05:33:37.4728419-06:00" t="18" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadHeartbeat [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc] Starting" s="1" />
+<i d="2013-02-21T05:33:38.4708990-06:00" t="17" c="Connection" m="Connection::OnConnectTimer [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Calling OnConnectRequest" s="2" />
+<i d="2013-02-21T05:33:38.4768993-06:00" t="17" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Connecting..." s="3" />
+<i d="2013-02-21T05:33:38.4778994-06:00" t="17" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] No Proxy Needed for sim11.t4login.com" s="4" />
+<i d="2013-02-21T05:33:38.4268964-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 55mb, GCMem: 2mb, GCGen0: 2, GCGen1: 1, GCGen2: 0" s="1" />
+<i d="2013-02-21T05:33:38.4298966-06:00" t="16" c="Data" m="Performance::OnCPUThread/n/rCounter: PingTime\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: MarketsSubscribed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: MarketUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: AccountsSubscribed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: AccountUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderSubmissionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderRevisionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderPullSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/r" s="2" />
+<i d="2013-02-21T05:33:38.5299023-06:00" t="17" c="Connection" m="Connection::GetHostIPAddress [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] DNS of sim11.t4login.com has available ip of 74.201.6.222" s="5" />
+<i d="2013-02-21T05:33:38.5309024-06:00" t="17" c="Connection" m="Connection::GetHostIPAddress [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] DNS of sim11.t4login.com has available ip of 69.44.110.222" s="6" />
+<i d="2013-02-21T05:33:38.5329025-06:00" t="17" c="Connection" m="Connection::GetHostIPAddress [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] DNS of sim11.t4login.com returning ip 74.201.6.222" s="7" />
+<i d="2013-02-21T05:33:38.5339026-06:00" t="17" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] DNS of sim11.t4login.com resolved to 74.201.6.222" s="8" />
+<i d="2013-02-21T05:33:38.5369027-06:00" t="17" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Calling BeginConnect" s="9" />
+<i d="2013-02-21T05:33:38.5349026-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 56mb, GCMem: 3mb, GCGen0: 2, GCGen1: 1, GCGen2: 0" s="3" />
+<i d="2013-02-21T05:33:38.5719047-06:00" t="20" c="Connection" m="BaseSSLConnection::StartSocket [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Starting Socket" s="1" />
+<i d="2013-02-21T05:33:38.8409201-06:00" t="20" c="Connection" m="BaseSSLConnection::RemoteCertificateValidationCallback [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Received Certificate: CN=*.t4login.com, OU=Secure Link SSL Wildcard, OU=Cunningham Trading Systems, O=Cunningham Trading Systems, STREET=141 W. Jackson Blvd, STREET=Suite 211A, L=Chicago, S=IL, PostalCode=60604, C=US, CN=Network Solutions Certificate Authority, O=Network Solutions L.L.C., C=US" s="2" />
+<i d="2013-02-21T05:33:38.8459204-06:00" t="20" c="API" m="HostConnection::moConnection_Connected [sim11.t4login.com:443] ExecuteAndQuote" s="3" />
+<i d="2013-02-21T05:33:38.8469205-06:00" t="20" c="API" m="Host::OnConnected Connected" s="4" />
+<i d="2013-02-21T05:33:38.8999235-06:00" t="20" c="API" m="HostConnection::LoginMaster [sim11.t4login.com:443] ExecuteAndQuote User: CTS\MHatmak" s="5" />
+<i d="2013-02-21T05:33:39.3559496-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [LoginResponse] Delayed: 18.9ms, BatchIndex: 1 of 1" s="1" />
+<i d="2013-02-21T05:33:39.3619499-06:00" t="15" c="API" m="MarketList::InitialiseConnectionData Resubscribing to markets" s="2" />
+<i d="2013-02-21T05:33:39.3659501-06:00" t="15" c="API" m="User::ProcessLoginResponse Login Succeeded for MHatmak" s="3" />
+<i d="2013-02-21T05:33:39.3699504-06:00" t="15" c="API" m="UserList::InitialiseConnectionData Requesting User details" s="4" />
+<i d="2013-02-21T05:33:39.3719505-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 19.1ms, BatchCount: 1" s="5" />
+<i d="2013-02-21T05:33:39.4509550-06:00" t="10" c="Data" m="Login Success" s="25" />
+<i d="2013-02-21T05:33:39.4629557-06:00" t="10" c="Data" m="Init" s="26" />
+<i d="2013-02-21T05:33:39.4779566-06:00" t="10" c="API" m="Account::Subscribe2 Subscribing to [5A3763A4-C8A0-4A6F-B111-934BBFBB8C94], EnableUPL: True" s="27" />
+<i d="2013-02-21T05:33:39.4169531-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 5.9ms, BatchCount: 1" s="6" />
+<i d="2013-02-21T05:33:39.4329540-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [AccountListComplete] Delayed: 19.8ms, BatchIndex: 3 of 3" s="7" />
+<i d="2013-02-21T05:33:39.4359542-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 18.4ms, BatchCount: 3" s="8" />
+<i d="2013-02-21T05:33:39.5439603-06:00" t="10" c="Data" m="Error: System.NullReferenceException: Object reference not set to an instance of an object./n/r   at T4Example2CSharp.Form1.Init() in c:\Program Files\CTS\T4ClientSim\APIExamples\T4Example2cs\frmMain.cs:line 1107" s="28" />
+<i d="2013-02-21T05:33:39.5459604-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [3%], Memory Usage: 60mb, GCMem: 4mb, GCGen0: 2, GCGen1: 1, GCGen2: 0" s="4" />
+<i d="2013-02-21T05:33:40.5500179-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [2%], Memory Usage: 61mb, GCMem: 4mb, GCGen0: 3, GCGen1: 1, GCGen2: 0" s="5" />
+<i d="2013-02-21T05:33:40.4720134-06:00" t="12" c="API" m="AccountList::moTimer_Elapsed Sending Subscription Packet" s="1" />
+<i d="2013-02-21T05:33:41.5540753-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 3, GCGen1: 1, GCGen2: 0" s="6" />
+<i d="2013-02-21T05:33:42.1901117-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 9.5ms, BatchCount: 1" s="9" />
+<i d="2013-02-21T05:33:42.1911117-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [MarketDetails] Delayed: 10.5ms, BatchIndex: 1 of 2" s="10" />
+<i d="2013-02-21T05:33:42.2111129-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [AccountSnapshot] Delayed: 27.3ms, BatchIndex: 2 of 2" s="11" />
+<i d="2013-02-21T05:33:42.2141131-06:00" t="15" c="API" m="Account::ProcessAccountDetails Account: MHatmak, 5A3763A4-C8A0-4A6F-B111-934BBFBB8C94" s="12" />
+<i d="2013-02-21T05:33:42.2311140-06:00" t="15" c="API" m="Account::ProcessAccountComplete [MHatmak] raising Events" s="13" />
+<i d="2013-02-21T05:33:42.2441148-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 53.0ms, BatchCount: 2" s="14" />
+<i d="2013-02-21T05:33:42.5611329-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [2%], Memory Usage: 62mb, GCMem: 2mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="7" />
+<i d="2013-02-21T05:33:43.5661904-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 62mb, GCMem: 3mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="8" />
+<i d="2013-02-21T05:33:44.5702478-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="9" />
+<i d="2013-02-21T05:33:45.5753053-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 3mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="10" />
+<i d="2013-02-21T05:33:46.5793627-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="11" />
+<i d="2013-02-21T05:33:47.5834202-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 5mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="12" />
+<i d="2013-02-21T05:33:48.5874776-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 6mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="13" />
+<i d="2013-02-21T05:33:49.5985354-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 5mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="14" />
+<i d="2013-02-21T05:33:50.6025928-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 64mb, GCMem: 6mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="15" />
+<i d="2013-02-21T05:33:51.6066503-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 7mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="16" />
+<i d="2013-02-21T05:33:52.4356977-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 5.1ms, BatchCount: 1" s="15" />
+<i d="2013-02-21T05:33:52.6137079-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 61mb, GCMem: 2mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="17" />
+<i d="2013-02-21T05:33:53.6177653-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 61mb, GCMem: 3mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="18" />
+<i d="2013-02-21T05:33:54.6218227-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="19" />
+<i d="2013-02-21T05:33:55.4278688-06:00" t="10" c="API" m="Market::SubscribeToDepth Market: DLCME_20130300_ZWH3, Buffer: Smart, Levels: BestOnly" s="29" />
+<i d="2013-02-21T05:33:55.4858722-06:00" t="20" c="Timing" m="Message::New [MarketSnapshot] Bytes Parsed 11.2ms, Length: 2338" s="6" />
+<i d="2013-02-21T05:33:55.4868722-06:00" t="20" c="Timing" m="Message::New [Compressed] Bytes Parsed 12.9ms, Length: 1276" s="7" />
+<i d="2013-02-21T05:33:55.4888723-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [MarketSnapshot] Delayed: 13.9ms, BatchIndex: 1 of 1" s="16" />
+<i d="2013-02-21T05:33:55.5078734-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 19.2ms, BatchCount: 1" s="17" />
+<i d="2013-02-21T05:33:55.6258802-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 63mb, GCMem: 3mb, GCGen0: 8, GCGen1: 3, GCGen2: 2" s="20" />
+<i d="2013-02-21T05:33:56.6299376-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 4mb, GCGen0: 8, GCGen1: 3, GCGen2: 2" s="21" />
+<i d="2013-02-21T05:33:57.2799748-06:00" t="15" c="API" m="Order::ProcessOrderUpdate 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4, Trades: 0, TradeLegs: 0" s="18" />
+<i d="2013-02-21T05:33:57.2829749-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 12.4ms, BatchCount: 1" s="19" />
+<i d="2013-02-21T05:33:57.2839750-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [AccountPosition2] Delayed: 13.4ms, BatchIndex: 1 of 2" s="20" />
+<i d="2013-02-21T05:33:57.3049762-06:00" t="15" c="API" m="Host::OnReceiveQueue Message [OrderUpdateMulti2] Delayed: 14.5ms, BatchIndex: 2 of 2" s="21" />
+<i d="2013-02-21T05:33:57.3089764-06:00" t="15" c="API" m="Order::ProcessOrderStatus 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4" s="22" />
+<i d="2013-02-21T05:33:57.3099765-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 26.0ms, BatchCount: 2" s="23" />
+<i d="2013-02-21T05:33:57.3319777-06:00" t="15" c="API" m="Order::ProcessOrderStatus 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4" s="24" />
+<i d="2013-02-21T05:33:57.3359780-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 23.0ms, BatchCount: 1" s="25" />
+<i d="2013-02-21T05:33:57.4129824-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 5.3ms, BatchCount: 1" s="26" />
+<i d="2013-02-21T05:33:57.6369952-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [2%], Memory Usage: 64mb, GCMem: 4mb, GCGen0: 9, GCGen1: 3, GCGen2: 2" s="22" />
+<i d="2013-02-21T05:33:58.6410526-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 9, GCGen1: 3, GCGen2: 2" s="23" />
+<i d="2013-02-21T05:33:59.6461101-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 9, GCGen1: 3, GCGen2: 2" s="24" />
+<i d="2013-02-21T05:34:00.6501675-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 65mb, GCMem: 6mb, GCGen0: 9, GCGen1: 3, GCGen2: 2" s="25" />
+<i d="2013-02-21T05:34:01.6572251-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 2mb, GCGen0: 10, GCGen1: 4, GCGen2: 3" s="26" />
+<i d="2013-02-21T05:34:02.6612826-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 3mb, GCGen0: 10, GCGen1: 4, GCGen2: 3" s="27" />
+<i d="2013-02-21T05:34:03.6663400-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 10, GCGen1: 4, GCGen2: 3" s="28" />
+<i d="2013-02-21T05:34:04.6713975-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 3mb, GCGen0: 11, GCGen1: 4, GCGen2: 3" s="29" />
+<i d="2013-02-21T05:34:05.6754550-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 4mb, GCGen0: 11, GCGen1: 4, GCGen2: 3" s="30" />
+<i d="2013-02-21T05:34:06.6795124-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 5mb, GCGen0: 11, GCGen1: 4, GCGen2: 3" s="31" />
+<i d="2013-02-21T05:34:07.6845699-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 4mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="32" />
+<i d="2013-02-21T05:34:08.6886273-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="33" />
+<i d="2013-02-21T05:34:09.6926847-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 6mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="34" />
+<i d="2013-02-21T05:34:10.6997423-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 2mb, GCGen0: 13, GCGen1: 5, GCGen2: 4" s="35" />
+<i d="2013-02-21T05:34:11.7037998-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 3mb, GCGen0: 13, GCGen1: 5, GCGen2: 4" s="36" />
+<i d="2013-02-21T05:34:12.7088573-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 13, GCGen1: 5, GCGen2: 4" s="37" />
+<i d="2013-02-21T05:34:13.7139147-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 3mb, GCGen0: 14, GCGen1: 5, GCGen2: 4" s="38" />
+<i d="2013-02-21T05:34:14.6209666-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 4.3ms, BatchCount: 1" s="27" />
+<i d="2013-02-21T05:34:14.7179722-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 4mb, GCGen0: 14, GCGen1: 5, GCGen2: 4" s="39" />
+<i d="2013-02-21T05:34:15.7220296-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 14, GCGen1: 5, GCGen2: 4" s="40" />
+<i d="2013-02-21T05:34:16.7270871-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 4mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="41" />
+<i d="2013-02-21T05:34:17.7311445-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="42" />
+<i d="2013-02-21T05:34:18.7352019-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 65mb, GCMem: 6mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="43" />
+<i d="2013-02-21T05:34:19.7422595-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 2mb, GCGen0: 16, GCGen1: 6, GCGen2: 5" s="44" />
+<i d="2013-02-21T05:34:20.7463170-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 3mb, GCGen0: 16, GCGen1: 6, GCGen2: 5" s="45" />
+<i d="2013-02-21T05:34:20.9793303-06:00" t="15" c="API" m="Order::ProcessOrderStatus 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4" s="28" />
+<i d="2013-02-21T05:34:20.9813304-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 1.3ms, BatchCount: 1" s="29" />
+<i d="2013-02-21T05:34:20.9823305-06:00" t="15" c="API" m="Order::ProcessOrderStatus 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4" s="30" />
+<i d="2013-02-21T05:34:20.9833305-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 1.2ms, BatchCount: 1" s="31" />
+<i d="2013-02-21T05:34:20.9843306-06:00" t="15" c="API" m="Order::ProcessOrderStatus 6B58BE7B-87C9-426A-ADBE-6ADCC17D10D4" s="32" />
+<i d="2013-02-21T05:34:20.9853306-06:00" t="15" c="Timing" m="Host::OnReceiveQueue Duration: 1.1ms, BatchCount: 1" s="33" />
+<i d="2013-02-21T05:34:21.7503744-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 4mb, GCGen0: 16, GCGen1: 6, GCGen2: 5" s="46" />
+<i d="2013-02-21T05:34:22.7554319-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 3mb, GCGen0: 17, GCGen1: 6, GCGen2: 5" s="47" />
+<i d="2013-02-21T05:34:23.7624895-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 4mb, GCGen0: 17, GCGen1: 6, GCGen2: 5" s="48" />
+<i d="2013-02-21T05:34:24.7665469-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 63mb, GCMem: 5mb, GCGen0: 17, GCGen1: 6, GCGen2: 5" s="49" />
+<i d="2013-02-21T05:34:25.7716044-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 4mb, GCGen0: 18, GCGen1: 6, GCGen2: 5" s="50" />
+<i d="2013-02-21T05:34:26.7756618-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 5mb, GCGen0: 18, GCGen1: 6, GCGen2: 5" s="51" />
+<i d="2013-02-21T05:34:27.7797193-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 64mb, GCMem: 6mb, GCGen0: 18, GCGen1: 6, GCGen2: 5" s="52" />
+<i d="2013-02-21T05:34:28.7967774-06:00" t="16" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 62mb, GCMem: 2mb, GCGen0: 19, GCGen1: 7, GCGen2: 6" s="53" />
+<i d="2013-02-21T05:34:29.3198073-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Start, Removing Connection" s="30" />
+<i d="2013-02-21T05:34:29.3228075-06:00" t="10" c="Connection" m="ConnectionThread::RemoveConnection [sim11.t4login.com:443, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807]" s="31" />
+<i d="2013-02-21T05:34:29.3258077-06:00" t="10" c="Connection" m="ConnectionThread::ThreadGroup::Remove Type [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc], Count: 0" s="32" />
+<i d="2013-02-21T05:34:29.3268077-06:00" t="10" c="Connection" m="ConnectionThread::RemoveConnection [sim11.t4login.com:443, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807] Removing group as empty" s="33" />
+<i d="2013-02-21T05:34:29.3298079-06:00" t="10" c="Connection" m="ConnectionThread::ThreadGroup::Dispose Start Type [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc], Count: 0" s="34" />
+<i d="2013-02-21T05:34:29.4808166-06:00" t="10" c="Connection" m="ConnectionThread::ThreadGroup::Dispose Complete Type [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc], Count: 0" s="35" />
+<i d="2013-02-21T05:34:29.4818166-06:00" t="10" c="Connection" m="ConnectionThread::RemoveConnection [sim11.t4login.com:443, SSLConnection, 3F4D4763-C74D-40D9-8077-2F474B796807] Connection removed, total now: 0, Groups: 0" s="36" />
+<i d="2013-02-21T05:34:29.4828167-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disconnecting" s="37" />
+<i d="2013-02-21T05:34:29.4858168-06:00" t="10" c="Connection" m="Connection::ExpectingDisconnect [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote]" s="38" />
+<i d="2013-02-21T05:34:29.4978175-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disposing SendQueue" s="39" />
+<i d="2013-02-21T05:34:29.5068180-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disposing ReceiveQueue" s="40" />
+<i d="2013-02-21T05:34:29.5088182-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disposing LogSend" s="41" />
+<i d="2013-02-21T05:34:29.5088182-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disposing LogReceive" s="42" />
+<i d="2013-02-21T05:34:29.5098182-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Disposing Performance" s="43" />
+<i d="2013-02-21T05:34:29.4778164-06:00" t="17" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadConnection [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc] Exited" s="10" />
+<i d="2013-02-21T05:34:29.4758163-06:00" t="18" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadHeartbeat [SSLConnection, 6ede3e77-4cd3-4a39-9f74-e774120649cc] Exited" s="2" />
+<i d="2013-02-21T05:34:29.5178187-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Logging Usage" s="44" />
+<i d="2013-02-21T05:34:29.5558208-06:00" t="10" c="Connection" m="Connection::LogUsage [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] MsgSent: 13/13, DataSent: 1/1kb, MsgRec: 38/38, DataRec: 16/16kb, Time Connected: 00:00:50.6838989, AvgSent: 0kbitsps, AvgRec: 2kbitsps, SendQueueCount: 0/0, SendQueueSize: 0/0kb" s="45" />
+<i d="2013-02-21T05:34:29.5778221-06:00" t="10" c="Connection" m="Connection::Dispose [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote], Complete" s="46" />
+<i d="2013-02-21T05:34:29.5768220-06:00" t="22" c="Connection" m="BaseSSLConnection::Socket_Read [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Error: System.ObjectDisposedException: Cannot access a disposed object./n/rObject name: 'SslStream'./n/r   at System.Net.Security.SslState.CheckThrow(Boolean authSucessCheck)/n/r   at System.Net.Security.SslStream.EndRead(IAsyncResult asyncResult)/n/r   at T4.Connections.BaseSSLConnection.Socket_Read(IAsyncResult ar)" s="1" />
+<i d="2013-02-21T05:34:29.5798222-06:00" t="22" c="Connection" m="Connection::RaiseDisconnected [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Starting" s="2" />
+<i d="2013-02-21T05:34:29.5808223-06:00" t="22" c="Connection" m="Connection::LogUsage [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] MsgSent: 0/13, DataSent: 0/1kb, MsgRec: 0/38, DataRec: 0/16kb, Time Connected: 00:00:50.7359019, AvgSent: 0kbitsps, AvgRec: 0kbitsps, SendQueueCount: 0/0, SendQueueSize: 0/0kb" s="3" />
+<i d="2013-02-21T05:34:29.5818223-06:00" t="22" c="Connection" m="Connection::ExpectingDisconnect [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote]" s="4" />
+<i d="2013-02-21T05:34:29.5828224-06:00" t="22" c="Connection" m="Connection::RaiseDisconnected [SSL, sim11.t4login.com:443, 3F4D4763-C74D-40D9-8077-2F474B796807, T4Example-ExecuteAndQuote] Finished" s="5" />

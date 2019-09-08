@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="openssl_v120_dyn-rt_static_init">
+  <PropertyGroup Label="Default initializers for properties">
+    <Linkage-openssl_v120_dyn-rt_static Condition="'$(Linkage-openssl_v120_dyn-rt_static)' == ''">dynamic</Linkage-openssl_v120_dyn-rt_static>
+    <CallingConvention-openssl_v120_dyn-rt_static Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)' == ''">cdecl</CallingConvention-openssl_v120_dyn-rt_static>
+  </PropertyGroup>
+  <ItemDefinitionGroup Label="Win32 and v120 and Release" Condition="'$(Platform.ToLower())' == 'win32' And ( $(PlatformToolset.ToLower().IndexOf('v120')) &gt; -1 Or '$(PlatformToolset.ToLower())' == 'windowskernelmodedriver8.0' Or '$(PlatformToolset.ToLower())' == 'windowsapplicationfordrivers8.0' Or '$(PlatformToolset.ToLower())' == 'windowsusermodedriver8.0' ) And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v120\Release\libeay32.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v120\Release\ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="Win32 and v120 and Debug" Condition="'$(Platform.ToLower())' == 'win32' And ( $(PlatformToolset.ToLower().IndexOf('v120')) &gt; -1 Or '$(PlatformToolset.ToLower())' == 'windowskernelmodedriver8.0' Or '$(PlatformToolset.ToLower())' == 'windowsapplicationfordrivers8.0' Or '$(PlatformToolset.ToLower())' == 'windowsusermodedriver8.0' ) And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v120\Debug\libeay32d.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/Win32\v120\Debug\ssleay32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v120 and Release" Condition="'$(Platform.ToLower())' == 'x64' And ( $(PlatformToolset.ToLower().IndexOf('v120')) &gt; -1 Or '$(PlatformToolset.ToLower())' == 'windowskernelmodedriver8.0' Or '$(PlatformToolset.ToLower())' == 'windowsapplicationfordrivers8.0' Or '$(PlatformToolset.ToLower())' == 'windowsusermodedriver8.0' ) And ( $(Configuration.ToLower().IndexOf('debug')) == -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v120\Release\libeay32.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v120\Release\ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Label="x64 and v120 and Debug" Condition="'$(Platform.ToLower())' == 'x64' And ( $(PlatformToolset.ToLower().IndexOf('v120')) &gt; -1 Or '$(PlatformToolset.ToLower())' == 'windowskernelmodedriver8.0' Or '$(PlatformToolset.ToLower())' == 'windowsapplicationfordrivers8.0' Or '$(PlatformToolset.ToLower())' == 'windowsusermodedriver8.0' ) And ( $(Configuration.ToLower().IndexOf('debug')) &gt; -1 )">
+    <Link>
+      <AdditionalDependencies>$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v120\Debug\libeay32d.lib;$(MSBuildThisFileDirectory)../..//build/native/lib/x64\v120\Debug\ssleay32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)../..//build/native/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\default-propertiesui.xml" />
+  </ItemGroup>
+  <UsingTask TaskName="openssl_v120_dyn-rt_static_Contains" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" TaskFactory="CodeTaskFactory">
+    <ParameterGroup>
+      <Text Output="false" ParameterType="System.String" />
+      <Library Output="false" Required="true" ParameterType="System.String" />
+      <Value Output="false" Required="true" ParameterType="System.String" />
+      <Result Output="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Code>Result = ((Text ?? "").Split(';').Contains(Library) ) ? Value : String.Empty;</Code>
+    </Task>
+  </UsingTask>
+  <Target Name="openssl_v120_dyn-rt_static_init">
+    <openssl_v120_dyn-rt_static_Contains Text="Linkage-dynamic" Library="openssl_v120_dyn-rt_static" Value="dynamic" Condition="'$(Linkage-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="Linkage-static" Library="openssl_v120_dyn-rt_static" Value="static" Condition="'$(Linkage-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="Linkage-ltcg" Library="openssl_v120_dyn-rt_static" Value="ltcg" Condition="'$(Linkage-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="Linkage-sxs" Library="openssl_v120_dyn-rt_static" Value="sxs" Condition="'$(Linkage-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="Linkage-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="CallingConvention-cdecl" Library="openssl_v120_dyn-rt_static" Value="cdecl" Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="CallingConvention-stdcall" Library="openssl_v120_dyn-rt_static" Value="stdcall" Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="CallingConvention-fastcall" Library="openssl_v120_dyn-rt_static" Value="fastcall" Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="CallingConvention-thiscall" Library="openssl_v120_dyn-rt_static" Value="thiscall" Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+    <openssl_v120_dyn-rt_static_Contains Text="CallingConvention-clrcall" Library="openssl_v120_dyn-rt_static" Value="clrcall" Condition="'$(CallingConvention-openssl_v120_dyn-rt_static)'==''">
+      <Output TaskParameter="Result" PropertyName="CallingConvention-openssl_v120_dyn-rt_static" />
+    </openssl_v120_dyn-rt_static_Contains>
+  </Target>
+</Project>

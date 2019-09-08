@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{AD548DA9-7DBD-4447-A1E5-560DC752C163}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PriceServer/PricesConsole.cs">
+    <Files>
+      <File FileName="PriceServer/PricesConsole.cs" Line="179" Column="13" />
+      <File FileName="../mylibs/Tools/Messaging/RedisIQFeed.cs" Line="84" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PriceServerCore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

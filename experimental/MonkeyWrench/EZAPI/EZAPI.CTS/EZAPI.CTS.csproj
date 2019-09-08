@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{464554C6-3223-476F-94FC-BCB3D4AD735E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EZAPI</RootNamespace>
+    <AssemblyName>EZAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CenterSystemDialogBox">
+      <HintPath>..\..\lib\CenterDialogs\DialogBox\bin\Debug\CenterSystemDialogBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="T4API.40">
+      <HintPath>..\..\..\..\..\..\..\Program Files\CTS\T4ClientSim\bin\T4API.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4ChartDataAPI.40">
+      <HintPath>..\..\..\..\..\..\..\Program Files\CTS\T4ClientSim\bin\T4ChartDataAPI.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4Definitions.40">
+      <HintPath>..\..\..\..\..\..\..\Program Files\CTS\T4ClientSim\bin\T4Definitions.40.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountForm.Designer.cs">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIConvert.cs" />
+    <Compile Include="APIFactory.cs" />
+    <Compile Include="EZBaseObject.cs" />
+    <Compile Include="Framework.Base\ezFullPriceQuote.cs" />
+    <Compile Include="Framework.Chart\Indicators\AccumulationDistribution.cs" />
+    <Compile Include="Framework.Chart\Indicators\BollingerBands.cs" />
+    <Compile Include="Framework.Chart\Indicators\ChartIndicatorList.cs" />
+    <Compile Include="Framework.Chart\Indicators\ChartIndicatorsBottom.cs" />
+    <Compile Include="Framework.Chart\ChartDataProviderYahoo.cs" />
+    <Compile Include="Framework.Chart\ChartDataProviderCTS.cs" />
+    <Compile Include="Framework.Chart\Indicators\ChaikinOscillator.cs" />
+    <Compile Include="Framework.Chart\Indicators\AverageTrueRange.cs" />
+    <Compile Include="Framework.Chart\ChartPool.cs" />
+    <Compile Include="Framework.Chart\ChartDescriptor.cs" />
+    <Compile Include="Framework.Chart\Indicators\CommodityChannelIndex.cs" />
+    <Compile Include="Framework.Chart\Indicators\DetrendedPriceOscillator.cs" />
+    <Compile Include="Framework.Chart\Indicators\EaseOfMovement.cs" />
+    <Compile Include="Framework.Chart\Indicators\Envelopes.cs" />
+    <Compile Include="Framework.Chart\Indicators\ExponentialMovingAverage.cs" />
+    <Compile Include="Framework.Chart\Indicators\Forecasting.cs" />
+    <Compile Include="Framework.Chart\Indicators\MACD.cs" />
+    <Compile Include="Framework.Chart\Indicators\MassIndex.cs" />
+    <Compile Include="Framework.Chart\Indicators\MedianPrice.cs" />
+    <Compile Include="Framework.Chart\Indicators\MoneyFlow.cs" />
+    <Compile Include="Framework.Chart\Indicators\MovingAverage.cs" />
+    <Compile Include="Framework.Chart\Indicators\NegativeVolumeIndex.cs" />
+    <Compile Include="Framework.Chart\Indicators\OnBalanceVolume.cs" />
+    <Compile Include="Framework.Chart\Indicators\Performance.cs" />
+    <Compile Include="Framework.Chart\Indicators\PositiveVolumeIndex.cs" />
+    <Compile Include="Framework.Chart\Indicators\PriceVolumeTrend.cs" />
+    <Compile Include="Framework.Chart\Indicators\RateOfChange.cs" />
+    <Compile Include="Framework.Chart\Indicators\RelativeStrengthIndex.cs" />
+    <Compile Include="Framework.Chart\Indicators\SkeletonIndicator.cs" />
+    <Compile Include="Framework.Chart\Indicators\Indicator.cs" />
+    <Compile Include="Framework.Chart\Indicators\KeltnerChannels.cs" />
+    <Compile Include="Framework.Chart\Indicators\ChartIndicatorsMain.cs" />
+    <Compile Include="Framework.Chart\Indicators\StandardDeviation.cs" />
+    <Compile Include="Framework.Chart\Indicators\StochasticIndicator.cs" />
+    <Compile Include="Framework.Chart\Indicators\TrendLine.cs" />
+    <Compile Include="Framework.Chart\Indicators\TriangularMovingAverage.cs" />
+    <Compile Include="Framework.Chart\Indicators\TripleExponentialMovingAverage.cs" />
+    <Compile Include="Framework.Chart\Indicators\TypicalPrice.cs" />
+    <Compile Include="Framework.Chart\Indicators\VolatilityChaikins.cs" />
+    <Compile Include="Framework.Chart\Indicators\VolumeOscillator.cs" />
+    <Compile Include="Framework.Chart\Indicators\VolumeRateOfChange.cs" />
+    <Compile Include="Framework.Chart\Indicators\WeightedClose.cs" />
+    <Compile Include="Framework.Chart\Indicators\WeightedMovingAverage.cs" />
+    <Compile Include="Framework.Chart\Indicators\WilliamsR.cs" />
+    <Compile Include="Framework.Chart\MSChartExtension.cs" />
+    <Compile Include="Framework.Chart\SeriesFilter.cs" />
+    <Compile Include="Framework.Chart\UIFormChooseBarData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Framework.Chart\UIFormChooseBarData.Designer.cs">
+      <DependentUpon>UIFormChooseBarData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework.Chart\IChartDataSeriesProvider.cs" />
+    <Compile Include="Framework.Chart\UIControlChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Framework.Chart\UIControlChart.designer.cs">
+      <DependentUpon>UIControlChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework.Chart\Indicators\IndicatorParameter.cs" />
+    <Compile Include="Framework.Chart\UIControlIndicatorParameters.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Framework.Chart\UIControlIndicatorParameters.Designer.cs">
+      <DependentUpon>UIControlIndicatorParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework.Spread\ezAutospreaderManager.cs" />
+    <Compile Include="Framework.Spread\ezAutospreaderSyntheticOrderProfile.cs" />
+    <Compile Include="Framework.Spread\Enumerations.cs" />
+    <Compile Include="Framework.Spread\ezAutospreaderInstrument.cs" />
+    <Compile Include="Framework.Base\Enumerations.cs" />
+    <Compile Include="Framework.Base\ezContract.cs" />
+    <Compile Include="Framework.Base\ezExchange.cs" />
+    <Compile Include="Framework.Chart\ezBarDataPointTicks.cs" />
+    <Compile Include="Framework.Chart\Enumerations.cs" />
+    <Compile Include="Framework.Chart\ezBarDataPoint.cs" />
+    <Compile Include="Framework.Chart\ezBarInterval.cs" />
+    <Compile Include="EZChartDataSeries.cs" />
+    <Compile Include="Framework.Chart\ezContinuationSettings.cs" />
+    <Compile Include="Framework.Chart\ezDataLoadCompleteEventArgs.cs" />
+    <Compile Include="Framework.Base\ezFill.cs" />
+    <Compile Include="Framework.Base\ezInstrument.cs" />
+    <Compile Include="Framework.Base\ezInstrumentKey.cs" />
+    <Compile Include="Framework.Base\ezInstrumentTradeSubscription.cs" />
+    <Compile Include="Framework.Base\ezMarket.cs" />
+    <Compile Include="Framework.Base\ezOrder.cs" />
+    <Compile Include="Framework.Base\ezOrderFeed.cs" />
+    <Compile Include="Framework.Base\ezOrderProfile.cs" />
+    <Compile Include="Framework.Base\ezOrderRestriction.cs" />
+    <Compile Include="Framework.Base\ezOrderRoutingStatus.cs" />
+    <Compile Include="Framework.Base\ezProduct.cs" />
+    <Compile Include="Framework.Base\ezProductKey.cs" />
+    <Compile Include="Framework.Base\ezProductType.cs" />
+    <Compile Include="Framework.Base\ezSession.cs" />
+    <Compile Include="Framework.Xml\XmlSaveMarketList.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework.Base\ezTimeInForce.cs" />
+    <Compile Include="EZInstrumentDescriptor.cs" />
+    <Compile Include="EZOrderRoute.cs" />
+    <Compile Include="Framework.Base\ezPrice.cs" />
+    <Compile Include="Framework.Chart\ezDataSeriesUpdatedEventArgs.cs" />
+    <Compile Include="Framework.Chart\ezDateRange.cs" />
+    <Compile Include="Framework.Chart\ezSessionTimeRange.cs" />
+    <Compile Include="Framework.Chart\IEZDataPoint.cs" />
+    <Compile Include="Framework.Spread\ezSpreadDefinition.cs" />
+    <Compile Include="Framework.Spread\ezSpreadLeg.cs" />
+    <Compile Include="APIMarketSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APIMarketSelectForm.Designer.cs">
+      <DependentUpon>APIMarketSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="APIMain.cs" />
+    <Compile Include="Framework.Base\ezQuantity.cs" />
+    <Compile Include="EZHelper.cs" />
+    <Compile Include="EZMarketDepth.cs" />
+    <Compile Include="EZFill.cs" />
+    <Compile Include="EZInstrument.cs" />
+    <Compile Include="EZOrder.cs" />
+    <Compile Include="EZSpreadInstrument.cs" />
+    <EmbeddedResource Include="AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framework.Chart\UIFormChooseBarData.resx">
+      <DependentUpon>UIFormChooseBarData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framework.Chart\UIControlChart.resx">
+      <DependentUpon>UIControlChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framework.Chart\UIControlIndicatorParameters.resx">
+      <DependentUpon>UIControlIndicatorParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APIMarketSelectForm.resx">
+      <DependentUpon>APIMarketSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EZAPI.Financial\EZAPI.Financial.csproj">
+      <Project>{13dd2699-b120-423b-a302-05b4a1793608}</Project>
+      <Name>EZAPI.Financial</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EZAPI.Toolbox\EZAPI.Toolbox.csproj">
+      <Project>{2907d3ae-86ed-443e-bf42-f51fe4b1c809}</Project>
+      <Name>EZAPI.Toolbox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_FastForward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_First.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_Symbol.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

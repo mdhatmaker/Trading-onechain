@@ -1,0 +1,126 @@
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{\section{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread Class Reference}
+\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}\index{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread@{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread}}
+}
+
+
+This class is used to create \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} objects which are derived from the \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object  
+
+
+Inheritance diagram for E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a3bf18671ab168364d74312d8a8293b12}{T\-T\-Spread} (Instrument instrument)
+\begin{DoxyCompactList}\small\item\em Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} object from a T\-T\-A\-P\-I Instrument object \end{DoxyCompactList}\item 
+override void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_ac6db55861ecc59935f528473b8beaf4a}{Buy\-Limit} (int qty, double price)
+\begin{DoxyCompactList}\small\item\em Version of the Buy\-Limit method that overrides the one in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} in order to correctly submit a spread order to buy with a specified quantity and price \end{DoxyCompactList}\item 
+override void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a142bfd3762610e8970b9e63a7ddc1dba}{Sell\-Limit} (int qty, double price)
+\begin{DoxyCompactList}\small\item\em Version of the Sell\-Limit method that overrides the one in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} in order to correctly submit a spread order to sell with a specified quantity and price \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Autospreader\-Instrument \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a7bbb6d6647e867a3ae59748ede381201}{Spread\-Instrument}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The T\-T\-A\-P\-I Auto\-Spreader\-Instrument object \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a645c734d4e8bc635d675bec5b70c03cf}{Server\-Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Name of the A\-S\-E server on which to execute orders for this spread (i.\-e. \char`\"{}\-A\-S\-E-\/\-B\char`\"{}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This class is used to create \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} objects which are derived from the \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a3bf18671ab168364d74312d8a8293b12}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}!T\-T\-Spread@{T\-T\-Spread}}
+\index{T\-T\-Spread@{T\-T\-Spread}!EZAPI::Containers::TTSpread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}}
+\subsubsection[{T\-T\-Spread}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread.\-T\-T\-Spread (
+\begin{DoxyParamCaption}
+\item[{Instrument}]{instrument}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a3bf18671ab168364d74312d8a8293b12}
+
+
+Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} object from a T\-T\-A\-P\-I Instrument object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument} & T\-T\-A\-P\-I instrument which represents this spread instrument\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_ac6db55861ecc59935f528473b8beaf4a}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}!Buy\-Limit@{Buy\-Limit}}
+\index{Buy\-Limit@{Buy\-Limit}!EZAPI::Containers::TTSpread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}}
+\subsubsection[{Buy\-Limit}]{\setlength{\rightskip}{0pt plus 5cm}override void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread.\-Buy\-Limit (
+\begin{DoxyParamCaption}
+\item[{int}]{qty, }
+\item[{double}]{price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_ac6db55861ecc59935f528473b8beaf4a}
+
+
+Version of the Buy\-Limit method that overrides the one in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} in order to correctly submit a spread order to buy with a specified quantity and price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of spreads to buy as an int\\
+\hline
+{\em price} & Price at which to buy the spreads as a double\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a17979284f7b5d23d932cbeadb0b24b40}{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument}.
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a142bfd3762610e8970b9e63a7ddc1dba}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}!Sell\-Limit@{Sell\-Limit}}
+\index{Sell\-Limit@{Sell\-Limit}!EZAPI::Containers::TTSpread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}}
+\subsubsection[{Sell\-Limit}]{\setlength{\rightskip}{0pt plus 5cm}override void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread.\-Sell\-Limit (
+\begin{DoxyParamCaption}
+\item[{int}]{qty, }
+\item[{double}]{price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a142bfd3762610e8970b9e63a7ddc1dba}
+
+
+Version of the Sell\-Limit method that overrides the one in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} in order to correctly submit a spread order to sell with a specified quantity and price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of spreads to sell as an int\\
+\hline
+{\em price} & Price at which to sell the spreads as a double\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad6c46109676176d269e06b464b2bcf97}{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a645c734d4e8bc635d675bec5b70c03cf}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}!Server\-Name@{Server\-Name}}
+\index{Server\-Name@{Server\-Name}!EZAPI::Containers::TTSpread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}}
+\subsubsection[{Server\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread.\-Server\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a645c734d4e8bc635d675bec5b70c03cf}
+
+
+Name of the A\-S\-E server on which to execute orders for this spread (i.\-e. \char`\"{}\-A\-S\-E-\/\-B\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a7bbb6d6647e867a3ae59748ede381201}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}!Spread\-Instrument@{Spread\-Instrument}}
+\index{Spread\-Instrument@{Spread\-Instrument}!EZAPI::Containers::TTSpread@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Spread}}
+\subsubsection[{Spread\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}Autospreader\-Instrument E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread.\-Spread\-Instrument\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a7bbb6d6647e867a3ae59748ede381201}
+
+
+The T\-T\-A\-P\-I Auto\-Spreader\-Instrument object 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Michael/\-Documents/\-Visual Studio 2010/\-Projects/\-E\-Z\-A\-P\-I/\-E\-Z\-A\-P\-I/T\-T\-Spread.\-cs\end{DoxyCompactItemize}

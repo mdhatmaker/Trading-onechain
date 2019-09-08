@@ -1,0 +1,14 @@
+
+Migration plan for OneChain software API testing:
+
+1) Hat continues to test using his own accounts
+1a) May be able to get Alvin set up with OneChain software and show him how to generate API keys to test the software with his accounts
+2) OneChain deposits SMALL amount on various exchanges and Hat tests with these
+3) I walk through OneChain through the process of creating new API keys for their exchange accounts, and Cliff/Will test OneChain software with these
+
+
+I basically want to move through this list ONLY when absolutely necessary. So until I hit the limit of testing I can do with my own accounts (or feel the testing has been exhausted at this level), I will continue with step #1.
+
+I'll talk to you guys when we need to move to the next step(s).
+
+All good in the hood!

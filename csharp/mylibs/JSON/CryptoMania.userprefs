@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E5A08C3B-7A00-43FB-AD74-5FC0C8AA0086}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CryptoAPIs/Crypto.cs">
+    <Files>
+      <File FileName="../CryptoAPIs/Crypto.cs" Line="49" Column="16" />
+      <File FileName="../CryptoAPIs/Exchanges/Binance.cs" Line="128" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CryptoTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>../CryptoAPIs/CryptoAPIs.csproj</String>
+    <String>../Tools/Tools.csproj</String>
+    <String>CryptoAPIsCore/CryptoAPIsCore.csproj</String>
+    <String>Tools/Tools.csproj</String>
+    <String>../CryptoAPIs/WSAPItest/WSAPItest.csproj</String>
+    <String>../CryptoAPIs/WebSockets/WebSockets.csproj</String>
+    <String>../Level1Socket/IQFeed.csproj</String>
+    <String>../Level1Socket/IQFeedCore/IQFeedCore.csproj</String>
+  </DisabledProjects>
+</Properties>

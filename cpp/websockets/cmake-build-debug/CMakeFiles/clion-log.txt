@@ -1,0 +1,4 @@
+C:\Users\Trader\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/x/Git/source/cpp/websockets
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/x/Git/source/cpp/websockets/cmake-build-debug

@@ -1,0 +1,154 @@
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth}{\section{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth Class Reference}
+\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth}\index{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth}}
+}
+
+
+This class maintains market depth (used for each instrument when market depth is subscribed)  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a7d266991d4b52fa8f5a8312af50c48f4}{T\-T\-Market\-Depth} (int max\-Depth\-Count)
+\begin{DoxyCompactList}\small\item\em Construct a market depth object with the specified instrument key and maximum depth \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_level}{T\-T\-Market\-Depth\-Level} \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a071cc62e46deeb1398b422fa31bb3e99}{Get\-Depth} (int level)
+\begin{DoxyCompactList}\small\item\em Get the market depth for the specified level (works just like the indexer) \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_aa22d9405be6647c77ce410340077cb5b}{Set\-Depth} (int level, \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_level}{T\-T\-Market\-Depth\-Level} depth\-Level)
+\begin{DoxyCompactList}\small\item\em Set the market depth at a specified level \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a48f66f3bf4c938a28ffc98c10084f087}{Set\-Depth} (int level, Price bid, Quantity bid\-Qty, Price ask, Quantity ask\-Qty)
+\begin{DoxyCompactList}\small\item\em Set the market depth at a specified level by specifying bid/ask price/quantity \end{DoxyCompactList}\item 
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_aeb7d8f2c7be4c48e25776ad0cdb88747}{override string {\bfseries To\-String} ()}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_aeb7d8f2c7be4c48e25776ad0cdb88747}
+
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a9cf3ce40d892134a1ae1b1ba610ddd34}{Depth\-Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The maximum market depth level count \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_level}{T\-T\-Market\-Depth\-Level} \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a5c12c88f937a4c901fce3b15719cece2}{this\mbox{[}int index\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Index into the market depth levels (use like market\-Depth\mbox{[}2\mbox{]} to return level 2 market depth) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class maintains market depth (used for each instrument when market depth is subscribed) 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a7d266991d4b52fa8f5a8312af50c48f4}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!T\-T\-Market\-Depth@{T\-T\-Market\-Depth}}
+\index{T\-T\-Market\-Depth@{T\-T\-Market\-Depth}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{T\-T\-Market\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-T\-T\-Market\-Depth (
+\begin{DoxyParamCaption}
+\item[{int}]{max\-Depth\-Count}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a7d266991d4b52fa8f5a8312af50c48f4}
+
+
+Construct a market depth object with the specified instrument key and maximum depth 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Instrument\-Key for the \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} associated with this depth\\
+\hline
+{\em max\-Depth\-Count} & The maximum number of depth levels allowed for the associated instrument\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a071cc62e46deeb1398b422fa31bb3e99}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!Get\-Depth@{Get\-Depth}}
+\index{Get\-Depth@{Get\-Depth}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{Get\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-T\-Market\-Depth\-Level} E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-Get\-Depth (
+\begin{DoxyParamCaption}
+\item[{int}]{level}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a071cc62e46deeb1398b422fa31bb3e99}
+
+
+Get the market depth for the specified level (works just like the indexer) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & market depth level to return\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+market depth at the specified level
+\end{DoxyReturn}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_aa22d9405be6647c77ce410340077cb5b}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!Set\-Depth@{Set\-Depth}}
+\index{Set\-Depth@{Set\-Depth}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{Set\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-Set\-Depth (
+\begin{DoxyParamCaption}
+\item[{int}]{level, }
+\item[{{\bf T\-T\-Market\-Depth\-Level}}]{depth\-Level}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_aa22d9405be6647c77ce410340077cb5b}
+
+
+Set the market depth at a specified level 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & market depth level to change\\
+\hline
+{\em depth\-Level} & new Market\-Depth\-Level object for the specified level\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a48f66f3bf4c938a28ffc98c10084f087}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!Set\-Depth@{Set\-Depth}}
+\index{Set\-Depth@{Set\-Depth}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{Set\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-Set\-Depth (
+\begin{DoxyParamCaption}
+\item[{int}]{level, }
+\item[{Price}]{bid, }
+\item[{Quantity}]{bid\-Qty, }
+\item[{Price}]{ask, }
+\item[{Quantity}]{ask\-Qty}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a48f66f3bf4c938a28ffc98c10084f087}
+
+
+Set the market depth at a specified level by specifying bid/ask price/quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em level} & market depth level to change\\
+\hline
+{\em bid} & bid price\\
+\hline
+{\em bid\-Qty} & bid quantity\\
+\hline
+{\em ask} & ask price\\
+\hline
+{\em ask\-Qty} & ask quantity\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a9cf3ce40d892134a1ae1b1ba610ddd34}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!Depth\-Count@{Depth\-Count}}
+\index{Depth\-Count@{Depth\-Count}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{Depth\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-Depth\-Count\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a9cf3ce40d892134a1ae1b1ba610ddd34}
+
+
+The maximum market depth level count 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a5c12c88f937a4c901fce3b15719cece2}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}!this\mbox{[}int index\mbox{]}@{this[int index]}}
+\index{this\mbox{[}int index\mbox{]}@{this[int index]}!EZAPI::Containers::TTMarketDepth@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Market\-Depth}}
+\subsubsection[{this[int index]}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-T\-Market\-Depth\-Level} E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Market\-Depth.\-this\mbox{[}int index\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth_a5c12c88f937a4c901fce3b15719cece2}
+
+
+Index into the market depth levels (use like market\-Depth\mbox{[}2\mbox{]} to return level 2 market depth) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & market depth level to return\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Market\-Depth\-Level object containing market depth for the specified level
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Michael/\-Documents/\-Visual Studio 2010/\-Projects/\-E\-Z\-A\-P\-I/\-E\-Z\-A\-P\-I/T\-T\-Market\-Depth.\-cs\end{DoxyCompactItemize}

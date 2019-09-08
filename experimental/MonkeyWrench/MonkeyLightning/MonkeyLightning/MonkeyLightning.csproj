@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E14FC75D-0829-43AF-B037-7A485F46A4A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonkeyLightning</RootNamespace>
+    <AssemblyName>MonkeyLightning</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MonkeyLightning.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.12.0.4518.1014\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="T4API.40">
+      <HintPath>..\..\bin\T4API.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4ChartDataAPI.40, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\T4ChartDataAPI.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4Definitions.40">
+      <HintPath>..\..\bin\T4Definitions.40.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Framework.IO\MonkeySound.cs" />
+    <Compile Include="Framework.Xml\XmlSaveComparison.cs" />
+    <Compile Include="Framework.Xml\XmlSaveRule.cs" />
+    <Compile Include="Framework.Xml\XmlSaveRuleCondition.cs" />
+    <Compile Include="MonkeyFactory.cs" />
+    <Compile Include="UI.Forms\ChartDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\ChartDataForm.Designer.cs">
+      <DependentUpon>ChartDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\ChooseMarketDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\ChooseMarketDataForm.Designer.cs">
+      <DependentUpon>ChooseMarketDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework.Comparison\ComparisonBasic.cs" />
+    <Compile Include="Framework.Comparison\ComparisonTime.cs" />
+    <Compile Include="Framework.IO\MonkeyIO.cs" />
+    <Compile Include="Framework\Enumerations.cs" />
+    <Compile Include="DashboardNotification.cs" />
+    <Compile Include="UI.Forms\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\EnglishDescriptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\EnglishDescriptionForm.Designer.cs">
+      <DependentUpon>EnglishDescriptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\RuleBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\RuleBuilderForm.Designer.cs">
+      <DependentUpon>RuleBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\RuleChooserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\RuleChooserForm.Designer.cs">
+      <DependentUpon>RuleChooserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\ChartSelectorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\ChartSelectorDialog.designer.cs">
+      <DependentUpon>ChartSelectorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\TestSpreadsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\TestSpreadsForm.designer.cs">
+      <DependentUpon>TestSpreadsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\Trade.cs" />
+    <Compile Include="UI.Controls\TradeRuleConditionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRuleConditionsControl.Designer.cs">
+      <DependentUpon>TradeRuleConditionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\LightningLoaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\LightningLoaderForm.Designer.cs">
+      <DependentUpon>LightningLoaderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Forms\GoldenRulesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\GoldenRulesForm.Designer.cs">
+      <DependentUpon>GoldenRulesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Framework.Comparison\IRuleComparison.cs" />
+    <Compile Include="Framework\RuleCondition.cs" />
+    <Compile Include="UI.Forms\RuleConditionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\RuleConditionForm.Designer.cs">
+      <DependentUpon>RuleConditionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRulePanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRulePanelControl.Designer.cs">
+      <DependentUpon>TradeRulePanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRuleSheetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRuleSheetControl.Designer.cs">
+      <DependentUpon>TradeRuleSheetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\RuleValue.cs" />
+    <Compile Include="UI.Forms\TradeBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.Forms\TradeBuilderForm.Designer.cs">
+      <DependentUpon>TradeBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRowControl.Designer.cs">
+      <DependentUpon>TradeRowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\TradeRule.cs" />
+    <Compile Include="Framework\TradeStep.cs" />
+    <Compile Include="UI.Controls\TradeRowStepControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI.Controls\TradeRowStepControl.Designer.cs">
+      <DependentUpon>TradeRowStepControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI.Forms\ChartDataForm.resx">
+      <DependentUpon>ChartDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\ChooseMarketDataForm.resx">
+      <DependentUpon>ChooseMarketDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\EnglishDescriptionForm.resx">
+      <DependentUpon>EnglishDescriptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\RuleBuilderForm.resx">
+      <DependentUpon>RuleBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\RuleChooserForm.resx">
+      <DependentUpon>RuleChooserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\ChartSelectorDialog.resx">
+      <DependentUpon>ChartSelectorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\TestSpreadsForm.resx">
+      <DependentUpon>TestSpreadsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\TradeRuleConditionsControl.resx">
+      <DependentUpon>TradeRuleConditionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\LightningLoaderForm.resx">
+      <DependentUpon>LightningLoaderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\GoldenRulesForm.resx">
+      <DependentUpon>GoldenRulesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI.Forms\RuleConditionForm.resx">
+      <DependentUpon>RuleConditionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\TradeRulePanelControl.resx">
+      <DependentUpon>TradeRulePanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\TradeRuleSheetControl.resx">
+      <DependentUpon>TradeRuleSheetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Forms\TradeBuilderForm.resx">
+      <DependentUpon>TradeBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\TradeRowControl.resx">
+      <DependentUpon>TradeRowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI.Controls\TradeRowStepControl.resx">
+      <DependentUpon>TradeRowStepControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkey Lightning %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-1-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-1-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chimpanzee-SoundBible.com-901310467.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkeys Monkeying Around-SoundBible.com-1738007729.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.CTS\EZAPI.CTS.csproj">
+      <Project>{464554c6-3223-476f-94fc-bcb3d4ad735e}</Project>
+      <Name>EZAPI.CTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Data\EZAPI.Data.csproj">
+      <Project>{643d7c8d-ba2d-42fd-8cb2-7b077459544c}</Project>
+      <Name>EZAPI.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Execution\EZAPI.Execution.csproj">
+      <Project>{75254e38-a170-4c79-83b9-42f9eb50f2e5}</Project>
+      <Name>EZAPI.Execution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Messaging\EZAPI.Messaging.csproj">
+      <Project>{f8a80232-5a22-43d7-91e3-9eec1e6a0068}</Project>
+      <Name>EZAPI.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI\EZAPI.Toolbox\EZAPI.Toolbox.csproj">
+      <Project>{2907d3ae-86ed-443e-bf42-f51fe4b1c809}</Project>
+      <Name>EZAPI.Toolbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviders\DataProvider.csproj">
+      <Project>{defbc4c1-9630-4890-8544-f38a2be51f82}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Recycle Arrow Icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SirenBlink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowDown1.24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_Symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Denided.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blueprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Denided1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkey Lightning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reading-stock-charts-candlestick-chart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penonchart-small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopsign-32x32.jpg" />
+    <None Include="Resources\enter-32x32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-32x32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopsign-24x24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blocknotes_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penonchart-small-faded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency-stop-faded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-trade-icon-faded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation32x32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation26x26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restartIcon32x32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Shuffle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Action 04.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "X:\Program Files\CTS\T4ClientSim\bin\System.Data.SQLite.40.DLL" "$(TargetDir)"
+copy "X:\Program Files\CTS\T4ClientSim\bin\zlib1.dll" "$(TargetDir)"
+copy "X:\Program Files\CTS\T4ClientSim\bin\t4connection.40.dll" "$(TargetDir)"
+copy "X:\Program Files\CTS\T4ClientSim\bin\t4message.40.dll" "$(TargetDir)"
+copy "X:\Program Files\CTS\T4ClientSim\bin\t4tracelistener.40.dll" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

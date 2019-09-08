@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GeminiApi</id>
+    <version>1.0.3</version>
+    <authors>Pavel Kochubey</authors>
+    <owners>Pavel Kochubey</owners>
+    <projectUrl>https://github.com/pkochubey/GeminiApi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Gemini API</description>
+    <releaseNotes>Basic Gemini API for .NET</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Gemini API Bitcoin</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0" />
+    </dependencies>
+  </metadata>
+</package>

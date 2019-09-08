@@ -1,0 +1,18 @@
+
+1. GUI
+	a. enhance charts
+	b. add Algo and Study GUI to Crypto Trader form
+	c. add "Futures Hedge" window that allows for easy hedging with @BTC and @XBT futures against bitcoin cryptocurrency
+	d. enhance GATOR form (especially to include BUY/SELL buttons and "edge" text entry
+	e. improve feedback on all forms (copy status bar functionality from main ZTrader form)
+2. Infrastructure
+	a. enhance all async/await Task-based threading in C# code
+	b. debug/improve all "streaming" API code (Websockets currently work best with my home-grown code, but testing PureSocketCluster and Socket.io libs)
+	c. replace all "symbol" code with CurrencyPair objects that work consistently across exchanges
+	d. better handling of real-time balances
+	e. create Unit Tests for infrastructure code
+3. Future Enhancements
+	a. look to integrate "Monkey Wrench" algo-creation app
+	b. create rough framework for OneChain wallet (perhaps based on BitcoinJ and other GitHub source code)
+	c. integrate basic machine-learning functionality
+	

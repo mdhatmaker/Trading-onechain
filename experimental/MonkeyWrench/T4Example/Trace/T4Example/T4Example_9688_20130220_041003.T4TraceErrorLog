@@ -1,0 +1,9 @@
+﻿<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="T4TraceListener version: [4.0.20.0]" s="0" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Windows version: [Microsoft Windows NT 6.1.7601 Service Pack 1 - Windows 7]" s="1" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Microsoft .Net Framework version detected [4.0.30319.18034], expecting [4.0.30319.269], 64bit" s="2" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="GC.IsServerGC: [False], GC.LatencyMode: [Interactive], Debugger.IsAttached: [True]" s="3" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Environment: UserDomainName: [Michael-HP], UserName: [Michael], UserInteractive: [True]" s="4" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Processor: [Architecture: AMD64, Level: 21, Revision: 0102, Identifier: AMD64 Family 21 Model 1 Stepping 2, AuthenticAMD, Cores: 6]" s="5" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="Timezone: [(UTC-06:00) Central Time (US &amp; Canada)]" s="6" />
+<i d="0001-01-01T00:00:00.0000000" t="12" c="Trace" m="TraceListeners UseGlobalLock=False, System.Diagnostics.DefaultTraceListener (NOT ThreadSafe), T4.TraceListener.T4TraceListener" s="7" />
+<i d="2013-02-20T04:10:03.7716178-06:00" t="8" c="Error" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator_T4Example.xml?dt=634969302032185861] Error: System.Net.WebException: The remote server returned an error: (404) Not Found./n/r   at System.Net.HttpWebRequest.GetResponse()/n/r   at T4.API.Host.GetServerConfigFile(String psURL)" s="4" />

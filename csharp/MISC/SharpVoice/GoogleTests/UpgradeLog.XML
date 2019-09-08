@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GoogleTests">
+</Property><Property Name="Solution File" Value="C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\GoogleTests.sln">
+</Property><Property Name="User Options File" Value="C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\GoogleTests.suo">
+</Property><Property Name="Date" Value="Thursday, December 10, 2009">
+</Property><Property Name="Time" Value="10:02 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GoogleTests.sln" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\GoogleTests.sln">
+</Event><Event ErrorLevel="0" Project="" Source="GoogleTests.suo" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\GoogleTests.suo">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="GoogleTests.csproj" Description="Project file successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\GoogleTests.csproj">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="GoogleTests.csproj.user" Description="Project user file successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\GoogleTests.csproj.user">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="SharpVoice.cs" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\SharpVoice.cs">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Program.cs" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\scott\Dropbox\My Dropbox\Projects\GoogleTests\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="GoogleTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GoogleTests" Source="GoogleTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GoogleTests.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GoogleTests.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GoogleTests" Source="GoogleTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

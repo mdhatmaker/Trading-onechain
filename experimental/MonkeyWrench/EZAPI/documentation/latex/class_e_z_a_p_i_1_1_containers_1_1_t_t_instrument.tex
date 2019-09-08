@@ -1,0 +1,415 @@
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{\section{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument Class Reference}
+\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}\index{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument@{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument}}
+}
+
+
+This class encapsulates the information about a specific instrument (i.\-e. C\-M\-E C\-L Nov12)  
+
+
+Inheritance diagram for E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_abeb0fbcd0b9543885ab48e3df0b5955d}{T\-T\-Instrument} (Instrument\-Key key)
+\begin{DoxyCompactList}\small\item\em Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object by passing an instrument key \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a619b592b214212350338fcf84788c7fa}{T\-T\-Instrument} (Instrument instrument)
+\begin{DoxyCompactList}\small\item\em Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object by passing a T\-T\-A\-P\-I Instrument object \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a17979284f7b5d23d932cbeadb0b24b40}{Buy\-Limit} (int qty, double price)
+\begin{DoxyCompactList}\small\item\em Send a limit order to buy this instrument with a specified quantity and price \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad6c46109676176d269e06b464b2bcf97}{Sell\-Limit} (int qty, double price)
+\begin{DoxyCompactList}\small\item\em Send a limit order to sell this instrument with a specified quantity and price \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a36ed4414282000f9fbfc1a053a71ad33}{Buy\-Market} (int qty)
+\begin{DoxyCompactList}\small\item\em Send a market order to buy this instrument with a specified quantity \end{DoxyCompactList}\item 
+void \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a323071a78e4a57d288c0ed259b607dd8}{Sell\-Market} (int qty)
+\begin{DoxyCompactList}\small\item\em Send a market order to sell this instrument with a specified quantity \end{DoxyCompactList}\item 
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a12216ee2d4fe1d71ad04cb69dddd69a1}{override bool {\bfseries Equals} (object obj)}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a12216ee2d4fe1d71ad04cb69dddd69a1}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a88865f2b8c50563a113160dd436e62a3}{override int {\bfseries Get\-Hash\-Code} ()}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a88865f2b8c50563a113160dd436e62a3}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a04065b5a5c9d09c81424192f5a44cd0a}{T\-T\-Instrument} ()
+\begin{DoxyCompactList}\small\item\em This parameterless constructor exists solely so we can derive \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} from \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Instrument \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a0f1e4c47d7b6512a6f605826b2d13fc1}{T\-T\-A\-P\-I\-\_\-\-Instrument}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Access the original T\-T\-A\-P\-I Instrument object \end{DoxyCompactList}\item 
+Instrument\-Key \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afd9710cbbcb94497b8aa7cfb392a27ac}{Key}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Unique instrument key \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a87cf4ed780ad325b1f838ee97c043fe3}{Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Text representing the instrument name (i.\-e. \char`\"{}\-C\-M\-E C\-L Nov12\char`\"{}) \end{DoxyCompactList}\item 
+Instrument\-Trade\-Subscription \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a46b5d383d32fccba805b1d38edbbf27d}{Trade\-Subscription}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Stores the Trade\-Subscription for this instrument \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae2974cc8462657c2232b5bf1b886c91d}{Instrument\-Descriptor}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em An \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} is used to initially construct an Instrument to subscribe to \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ab339c987cd7ceeedaf2b4ec94cbc532a}{Bid}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Bid price of this instrument's inside market (best bid) \end{DoxyCompactList}\item 
+Quantity \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a5e005c3504b652c6f117875195c03692}{Bid\-Qty}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Bid quantity of this instrument's inside market (best bid quantity) \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a960e5cb420f198c3e8c18a1bc877ea24}{Ask}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Ask price of this instrument's inside market (best offer) \end{DoxyCompactList}\item 
+Quantity \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a027537695888a620318cf012281d421e}{Ask\-Qty}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Ask quantity of this instrument's inside market (best offer quantity) \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aca64b41e159a6f32285ba63d20be77a1}{Last}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Last traded price of this instrument \end{DoxyCompactList}\item 
+Quantity \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa8c0b55bf3f9321f09f10769a1b5fac3}{Last\-Qty}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Quantity of last trade in this instrument \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_market_depth}{T\-T\-Market\-Depth} \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a9cd33fd90676e4862f67859831725459}{Market\-Depth}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Market depth for this instrument \end{DoxyCompactList}\item 
+int \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a50cdd8a27c71bb4fdaefe7741c3c0279}{Depth\-Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Number of depth levels contained in the Market\-Depth for this instrument \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_order_route}{Order\-Route} \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a1df90885829b0b46f20b5511b53596d8}{Order\-Route}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_order_route}{Order\-Route} contains information on the order feeds, account name, etc. used to send an order with this instrument \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad7db4bf541289c795ed505fdc42b9f94}{Open}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Opening price of this instrument \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aec69a584ec4a677757a51f664ccf5a7f}{High}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em High price of this instrument for the day \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a945159611455e9a10710b8b20235ac8d}{Low}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Low price of this instrument for the day \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_acabb0a759b2015272ed8e8c33364aba0}{Close}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Closing price of this instrument \end{DoxyCompactList}\item 
+Price \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa603e1f65e403735c026065d28669292}{Net\-Change}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The net change in price of this instrument for the day \end{DoxyCompactList}\item 
+double \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afe80f04bedf1e51d1983bc81798fae80}{Net\-Change\-Percent}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The percentage net change in this instrument's price for the day \end{DoxyCompactList}\item 
+Quantity \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70c62e99148ab0ddf115649e1610daa8}{Volume}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Current volume (number of contracts traded) in this instrument \end{DoxyCompactList}\item 
+Market \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae5e1c0d3b9311d138ddaf2c1836ea1b6}{Market}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The market (or exchange) on which this instrument trades (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}, \char`\"{}\-C\-B\-O\-T\char`\"{}, etc.) \end{DoxyCompactList}\item 
+bool \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a150c99e13c8550c1de7d514af1a63e44}{Is\-Autospreader}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns true if this instrument is an Autospreader instrument \end{DoxyCompactList}\item 
+Read\-Only\-Collection$<$ Order\-Feed $>$ \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70e0fc1c7ca400db941b75677a10b23f}{Enabled\-Order\-Feeds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em List of the order feeds that are enabled for this instrument \end{DoxyCompactList}\item 
+double \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a2a905bc8d6ead9617491c49c1c86aa10}{Profit}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Current profit or loss taking all the orders for this instrument for the day \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class encapsulates the information about a specific instrument (i.\-e. C\-M\-E C\-L Nov12) 
+
+The \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} class is derived from the \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} class
+
+\begin{DoxySeeAlso}{See Also}
+$>$\-T\-T\-Spread
+
+
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a04065b5a5c9d09c81424192f5a44cd0a}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!T\-T\-Instrument@{T\-T\-Instrument}}
+\index{T\-T\-Instrument@{T\-T\-Instrument}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{T\-T\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-T\-T\-Instrument (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a04065b5a5c9d09c81424192f5a44cd0a}
+
+
+This parameterless constructor exists solely so we can derive \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread}{T\-T\-Spread} from \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_abeb0fbcd0b9543885ab48e3df0b5955d}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!T\-T\-Instrument@{T\-T\-Instrument}}
+\index{T\-T\-Instrument@{T\-T\-Instrument}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{T\-T\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-T\-T\-Instrument (
+\begin{DoxyParamCaption}
+\item[{Instrument\-Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_abeb0fbcd0b9543885ab48e3df0b5955d}
+
+
+Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object by passing an instrument key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Same Instrument\-Key used by the underlying T\-T\-A\-P\-I\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a619b592b214212350338fcf84788c7fa}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!T\-T\-Instrument@{T\-T\-Instrument}}
+\index{T\-T\-Instrument@{T\-T\-Instrument}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{T\-T\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-T\-T\-Instrument (
+\begin{DoxyParamCaption}
+\item[{Instrument}]{instrument}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a619b592b214212350338fcf84788c7fa}
+
+
+Construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument}{T\-T\-Instrument} object by passing a T\-T\-A\-P\-I Instrument object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em instrument} & Same Instrument used by the underlying T\-T\-A\-P\-I\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a17979284f7b5d23d932cbeadb0b24b40}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Buy\-Limit@{Buy\-Limit}}
+\index{Buy\-Limit@{Buy\-Limit}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Buy\-Limit}]{\setlength{\rightskip}{0pt plus 5cm}virtual void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Buy\-Limit (
+\begin{DoxyParamCaption}
+\item[{int}]{qty, }
+\item[{double}]{price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a17979284f7b5d23d932cbeadb0b24b40}
+
+
+Send a limit order to buy this instrument with a specified quantity and price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of contracts to buy\\
+\hline
+{\em price} & Price at which to buy\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_ac6db55861ecc59935f528473b8beaf4a}{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread}.
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a36ed4414282000f9fbfc1a053a71ad33}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Buy\-Market@{Buy\-Market}}
+\index{Buy\-Market@{Buy\-Market}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Buy\-Market}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Buy\-Market (
+\begin{DoxyParamCaption}
+\item[{int}]{qty}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a36ed4414282000f9fbfc1a053a71ad33}
+
+
+Send a market order to buy this instrument with a specified quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of contracts to buy\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad6c46109676176d269e06b464b2bcf97}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Sell\-Limit@{Sell\-Limit}}
+\index{Sell\-Limit@{Sell\-Limit}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Sell\-Limit}]{\setlength{\rightskip}{0pt plus 5cm}virtual void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Sell\-Limit (
+\begin{DoxyParamCaption}
+\item[{int}]{qty, }
+\item[{double}]{price}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad6c46109676176d269e06b464b2bcf97}
+
+
+Send a limit order to sell this instrument with a specified quantity and price 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of contracts to sell\\
+\hline
+{\em price} & Price at which to sell\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_spread_a142bfd3762610e8970b9e63a7ddc1dba}{E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Spread}.
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a323071a78e4a57d288c0ed259b607dd8}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Sell\-Market@{Sell\-Market}}
+\index{Sell\-Market@{Sell\-Market}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Sell\-Market}]{\setlength{\rightskip}{0pt plus 5cm}void E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Sell\-Market (
+\begin{DoxyParamCaption}
+\item[{int}]{qty}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a323071a78e4a57d288c0ed259b607dd8}
+
+
+Send a market order to sell this instrument with a specified quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em qty} & Number of contracts to sell\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a960e5cb420f198c3e8c18a1bc877ea24}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Ask@{Ask}}
+\index{Ask@{Ask}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Ask}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Ask\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a960e5cb420f198c3e8c18a1bc877ea24}
+
+
+Ask price of this instrument's inside market (best offer) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a027537695888a620318cf012281d421e}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Ask\-Qty@{Ask\-Qty}}
+\index{Ask\-Qty@{Ask\-Qty}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Ask\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}Quantity E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Ask\-Qty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a027537695888a620318cf012281d421e}
+
+
+Ask quantity of this instrument's inside market (best offer quantity) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ab339c987cd7ceeedaf2b4ec94cbc532a}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Bid@{Bid}}
+\index{Bid@{Bid}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Bid}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Bid\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ab339c987cd7ceeedaf2b4ec94cbc532a}
+
+
+Bid price of this instrument's inside market (best bid) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a5e005c3504b652c6f117875195c03692}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Bid\-Qty@{Bid\-Qty}}
+\index{Bid\-Qty@{Bid\-Qty}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Bid\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}Quantity E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Bid\-Qty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a5e005c3504b652c6f117875195c03692}
+
+
+Bid quantity of this instrument's inside market (best bid quantity) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_acabb0a759b2015272ed8e8c33364aba0}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Close@{Close}}
+\index{Close@{Close}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Close}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Close\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_acabb0a759b2015272ed8e8c33364aba0}
+
+
+Closing price of this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a50cdd8a27c71bb4fdaefe7741c3c0279}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Depth\-Count@{Depth\-Count}}
+\index{Depth\-Count@{Depth\-Count}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Depth\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Depth\-Count\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a50cdd8a27c71bb4fdaefe7741c3c0279}
+
+
+Number of depth levels contained in the Market\-Depth for this instrument 
+
+A Depth\-Count of zero means no market depth is available\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70e0fc1c7ca400db941b75677a10b23f}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Enabled\-Order\-Feeds@{Enabled\-Order\-Feeds}}
+\index{Enabled\-Order\-Feeds@{Enabled\-Order\-Feeds}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Enabled\-Order\-Feeds}]{\setlength{\rightskip}{0pt plus 5cm}Read\-Only\-Collection$<$Order\-Feed$>$ E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Enabled\-Order\-Feeds\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70e0fc1c7ca400db941b75677a10b23f}
+
+
+List of the order feeds that are enabled for this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aec69a584ec4a677757a51f664ccf5a7f}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!High@{High}}
+\index{High@{High}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{High}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-High\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aec69a584ec4a677757a51f664ccf5a7f}
+
+
+High price of this instrument for the day 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae2974cc8462657c2232b5bf1b886c91d}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Instrument\-Descriptor@{Instrument\-Descriptor}}
+\index{Instrument\-Descriptor@{Instrument\-Descriptor}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Instrument\-Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Instrument\-Descriptor} E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Instrument\-Descriptor\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae2974cc8462657c2232b5bf1b886c91d}
+
+
+An \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} is used to initially construct an Instrument to subscribe to 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a150c99e13c8550c1de7d514af1a63e44}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Is\-Autospreader@{Is\-Autospreader}}
+\index{Is\-Autospreader@{Is\-Autospreader}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Is\-Autospreader}]{\setlength{\rightskip}{0pt plus 5cm}bool E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Is\-Autospreader\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a150c99e13c8550c1de7d514af1a63e44}
+
+
+Returns true if this instrument is an Autospreader instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afd9710cbbcb94497b8aa7cfb392a27ac}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Key@{Key}}
+\index{Key@{Key}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Key}]{\setlength{\rightskip}{0pt plus 5cm}Instrument\-Key E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Key\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afd9710cbbcb94497b8aa7cfb392a27ac}
+
+
+Unique instrument key 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aca64b41e159a6f32285ba63d20be77a1}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Last@{Last}}
+\index{Last@{Last}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Last}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Last\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aca64b41e159a6f32285ba63d20be77a1}
+
+
+Last traded price of this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa8c0b55bf3f9321f09f10769a1b5fac3}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Last\-Qty@{Last\-Qty}}
+\index{Last\-Qty@{Last\-Qty}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Last\-Qty}]{\setlength{\rightskip}{0pt plus 5cm}Quantity E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Last\-Qty\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa8c0b55bf3f9321f09f10769a1b5fac3}
+
+
+Quantity of last trade in this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a945159611455e9a10710b8b20235ac8d}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Low@{Low}}
+\index{Low@{Low}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Low}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Low\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a945159611455e9a10710b8b20235ac8d}
+
+
+Low price of this instrument for the day 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae5e1c0d3b9311d138ddaf2c1836ea1b6}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Market@{Market}}
+\index{Market@{Market}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Market}]{\setlength{\rightskip}{0pt plus 5cm}Market E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Market\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ae5e1c0d3b9311d138ddaf2c1836ea1b6}
+
+
+The market (or exchange) on which this instrument trades (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}, \char`\"{}\-C\-B\-O\-T\char`\"{}, etc.) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a9cd33fd90676e4862f67859831725459}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Market\-Depth@{Market\-Depth}}
+\index{Market\-Depth@{Market\-Depth}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Market\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\-T\-Market\-Depth} E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Market\-Depth\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a9cd33fd90676e4862f67859831725459}
+
+
+Market depth for this instrument 
+
+Each level is represented by a T\-T\-Depth\-Level\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a87cf4ed780ad325b1f838ee97c043fe3}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Name@{Name}}
+\index{Name@{Name}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a87cf4ed780ad325b1f838ee97c043fe3}
+
+
+Text representing the instrument name (i.\-e. \char`\"{}\-C\-M\-E C\-L Nov12\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa603e1f65e403735c026065d28669292}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Net\-Change@{Net\-Change}}
+\index{Net\-Change@{Net\-Change}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Net\-Change}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Net\-Change\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_aa603e1f65e403735c026065d28669292}
+
+
+The net change in price of this instrument for the day 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afe80f04bedf1e51d1983bc81798fae80}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Net\-Change\-Percent@{Net\-Change\-Percent}}
+\index{Net\-Change\-Percent@{Net\-Change\-Percent}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Net\-Change\-Percent}]{\setlength{\rightskip}{0pt plus 5cm}double E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Net\-Change\-Percent\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_afe80f04bedf1e51d1983bc81798fae80}
+
+
+The percentage net change in this instrument's price for the day 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad7db4bf541289c795ed505fdc42b9f94}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Open@{Open}}
+\index{Open@{Open}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Open}]{\setlength{\rightskip}{0pt plus 5cm}Price E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Open\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_ad7db4bf541289c795ed505fdc42b9f94}
+
+
+Opening price of this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a1df90885829b0b46f20b5511b53596d8}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Order\-Route@{Order\-Route}}
+\index{Order\-Route@{Order\-Route}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Order\-Route}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Order\-Route} E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Order\-Route\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a1df90885829b0b46f20b5511b53596d8}
+
+
+The \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_order_route}{Order\-Route} contains information on the order feeds, account name, etc. used to send an order with this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a2a905bc8d6ead9617491c49c1c86aa10}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Profit@{Profit}}
+\index{Profit@{Profit}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Profit}]{\setlength{\rightskip}{0pt plus 5cm}double E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Profit\hspace{0.3cm}{\ttfamily [get]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a2a905bc8d6ead9617491c49c1c86aa10}
+
+
+Current profit or loss taking all the orders for this instrument for the day 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a46b5d383d32fccba805b1d38edbbf27d}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Trade\-Subscription@{Trade\-Subscription}}
+\index{Trade\-Subscription@{Trade\-Subscription}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Trade\-Subscription}]{\setlength{\rightskip}{0pt plus 5cm}Instrument\-Trade\-Subscription E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Trade\-Subscription\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a46b5d383d32fccba805b1d38edbbf27d}
+
+
+Stores the Trade\-Subscription for this instrument 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a0f1e4c47d7b6512a6f605826b2d13fc1}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!T\-T\-A\-P\-I\-\_\-\-Instrument@{T\-T\-A\-P\-I\-\_\-\-Instrument}}
+\index{T\-T\-A\-P\-I\-\_\-\-Instrument@{T\-T\-A\-P\-I\-\_\-\-Instrument}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{T\-T\-A\-P\-I\-\_\-\-Instrument}]{\setlength{\rightskip}{0pt plus 5cm}Instrument E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-T\-T\-A\-P\-I\-\_\-\-Instrument\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a0f1e4c47d7b6512a6f605826b2d13fc1}
+
+
+Access the original T\-T\-A\-P\-I Instrument object 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70c62e99148ab0ddf115649e1610daa8}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}!Volume@{Volume}}
+\index{Volume@{Volume}!EZAPI::Containers::TTInstrument@{E\-Z\-A\-P\-I\-::\-Containers\-::\-T\-T\-Instrument}}
+\subsubsection[{Volume}]{\setlength{\rightskip}{0pt plus 5cm}Quantity E\-Z\-A\-P\-I.\-Containers.\-T\-T\-Instrument.\-Volume\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_t_t_instrument_a70c62e99148ab0ddf115649e1610daa8}
+
+
+Current volume (number of contracts traded) in this instrument 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Michael/\-Documents/\-Visual Studio 2010/\-Projects/\-E\-Z\-A\-P\-I/\-E\-Z\-A\-P\-I/T\-T\-Instrument.\-cs\end{DoxyCompactItemize}

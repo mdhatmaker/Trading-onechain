@@ -1,0 +1,135 @@
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{\section{E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor Class Reference}
+\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}\index{E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor@{E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor}}
+}
+
+
+An \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} object contains all the information necessary to construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} object. For example, if you know the 4 strings necessary to construct an order (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}, \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{}, \char`\"{}\-C\-L\char`\"{}, \char`\"{}\-Nov12\char`\"{}), you can create an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} and then create a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} using that \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor}.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a10af3c66bff7570bc3c172216ed913fd}{Instrument\-Descriptor} (string market, string product\-Type, string product, string contract)
+\begin{DoxyCompactList}\small\item\em Construct an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} object with the four strings that make up the necessary information \end{DoxyCompactList}\item 
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae08519f913341e6e80ebe202bedcc697}{Instrument\-Descriptor} (string descriptor)
+\begin{DoxyCompactList}\small\item\em Create an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} using a single string containing all the required information (with the \char`\"{}$|$\char`\"{} char as the separator). \end{DoxyCompactList}\item 
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a8f5d27202921fffc6c7f7d8346137882}{override bool {\bfseries Equals} (object obj)}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a8f5d27202921fffc6c7f7d8346137882}
+
+\item 
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_afcd1666ac10837c22b51572e9cf4e674}{override int {\bfseries Get\-Hash\-Code} ()}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_afcd1666ac10837c22b51572e9cf4e674}
+
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Product\-Key \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae4bd32949b19a10f0ceefb9ffa41f640}{Product\-Key}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Product key for the instrument we will subscribe to \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a8def1a58d25def5cfc159311fa52a048}{Market\-Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Market for the instrument we will subscribe to (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}) \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a87f1888c91572713fe1860da8e2ffca5}{Product\-Type\-Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Product type for the instrument we will subscribe to (i.\-e. \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{}) \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ab5504fdb91ebedf1fb17141d350aef5e}{Product\-Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Product for the instrument we will subscribe to (i.\-e. \char`\"{}\-C\-L\char`\"{}) \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a542114edf9499c5da72c14e10d3e95c3}{Contract\-Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Contract for the instrument we will subscribe to (i.\-e. \char`\"{}\-Nov12\char`\"{}) \end{DoxyCompactList}\item 
+string \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_af3263bdcd2fba81dbdea077e68dd920e}{Descriptor\-String}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A compact view of the information used to subscribe to an instrument separated by the \char`\"{}$|$\char`\"{} character (i.\-e. \char`\"{}\-C\-M\-E$|$\-F\-U\-T\-U\-R\-E$|$\-C\-L$|$\-Nov12\char`\"{}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} object contains all the information necessary to construct a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} object. For example, if you know the 4 strings necessary to construct an order (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}, \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{}, \char`\"{}\-C\-L\char`\"{}, \char`\"{}\-Nov12\char`\"{}), you can create an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} and then create a \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_t_t_order}{T\-T\-Order} using that \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor}. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a10af3c66bff7570bc3c172216ed913fd}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Instrument\-Descriptor@{Instrument\-Descriptor}}
+\index{Instrument\-Descriptor@{Instrument\-Descriptor}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Instrument\-Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Instrument\-Descriptor (
+\begin{DoxyParamCaption}
+\item[{string}]{market, }
+\item[{string}]{product\-Type, }
+\item[{string}]{product, }
+\item[{string}]{contract}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a10af3c66bff7570bc3c172216ed913fd}
+
+
+Construct an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} object with the four strings that make up the necessary information 
+
+
+\begin{DoxyParams}{Parameters}
+{\em market} & Market for the requested instrument (i.\-e. \char`\"{}\-C\-M\-E\char`\"{})\\
+\hline
+{\em product\-Type} & Product type for the requested instrument (i.\-e. \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{})\\
+\hline
+{\em product} & Product for the requested instrument (i.\-e. \char`\"{}\-C\-L\char`\"{})\\
+\hline
+{\em contract} & Contract for the requested instrument (i.\-e. \char`\"{}\-Nov12\char`\"{})\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae08519f913341e6e80ebe202bedcc697}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Instrument\-Descriptor@{Instrument\-Descriptor}}
+\index{Instrument\-Descriptor@{Instrument\-Descriptor}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Instrument\-Descriptor}]{\setlength{\rightskip}{0pt plus 5cm}E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Instrument\-Descriptor (
+\begin{DoxyParamCaption}
+\item[{string}]{descriptor}
+\end{DoxyParamCaption}
+)}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae08519f913341e6e80ebe202bedcc697}
+
+
+Create an \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} using a single string containing all the required information (with the \char`\"{}$|$\char`\"{} char as the separator). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em descriptor} & \\
+\hline
+\end{DoxyParams}
+\hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor} id = new \hyperlink{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor}{Instrument\-Descriptor}(\char`\"{}\-C\-M\-E$|$\-F\-U\-T\-U\-R\-E$|$\-H\-G$|$\-Dec12\char`\"{})
+
+\subsection{Property Documentation}
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a542114edf9499c5da72c14e10d3e95c3}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Contract\-Name@{Contract\-Name}}
+\index{Contract\-Name@{Contract\-Name}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Contract\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Contract\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a542114edf9499c5da72c14e10d3e95c3}
+
+
+Contract for the instrument we will subscribe to (i.\-e. \char`\"{}\-Nov12\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_af3263bdcd2fba81dbdea077e68dd920e}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Descriptor\-String@{Descriptor\-String}}
+\index{Descriptor\-String@{Descriptor\-String}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Descriptor\-String}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Descriptor\-String\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_af3263bdcd2fba81dbdea077e68dd920e}
+
+
+A compact view of the information used to subscribe to an instrument separated by the \char`\"{}$|$\char`\"{} character (i.\-e. \char`\"{}\-C\-M\-E$|$\-F\-U\-T\-U\-R\-E$|$\-C\-L$|$\-Nov12\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a8def1a58d25def5cfc159311fa52a048}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Market\-Name@{Market\-Name}}
+\index{Market\-Name@{Market\-Name}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Market\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Market\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a8def1a58d25def5cfc159311fa52a048}
+
+
+Market for the instrument we will subscribe to (i.\-e. \char`\"{}\-C\-M\-E\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae4bd32949b19a10f0ceefb9ffa41f640}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Product\-Key@{Product\-Key}}
+\index{Product\-Key@{Product\-Key}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Product\-Key}]{\setlength{\rightskip}{0pt plus 5cm}Product\-Key E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Product\-Key\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ae4bd32949b19a10f0ceefb9ffa41f640}
+
+
+Product key for the instrument we will subscribe to 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ab5504fdb91ebedf1fb17141d350aef5e}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Product\-Name@{Product\-Name}}
+\index{Product\-Name@{Product\-Name}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Product\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Product\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_ab5504fdb91ebedf1fb17141d350aef5e}
+
+
+Product for the instrument we will subscribe to (i.\-e. \char`\"{}\-C\-L\char`\"{}) 
+
+\hypertarget{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a87f1888c91572713fe1860da8e2ffca5}{\index{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}!Product\-Type\-Name@{Product\-Type\-Name}}
+\index{Product\-Type\-Name@{Product\-Type\-Name}!EZAPI::Containers::InstrumentDescriptor@{E\-Z\-A\-P\-I\-::\-Containers\-::\-Instrument\-Descriptor}}
+\subsubsection[{Product\-Type\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string E\-Z\-A\-P\-I.\-Containers.\-Instrument\-Descriptor.\-Product\-Type\-Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_e_z_a_p_i_1_1_containers_1_1_instrument_descriptor_a87f1888c91572713fe1860da8e2ffca5}
+
+
+Product type for the instrument we will subscribe to (i.\-e. \char`\"{}\-F\-U\-T\-U\-R\-E\char`\"{}) 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Michael/\-Documents/\-Visual Studio 2010/\-Projects/\-E\-Z\-A\-P\-I/\-E\-Z\-A\-P\-I/Instrument\-Descriptor.\-cs\end{DoxyCompactItemize}

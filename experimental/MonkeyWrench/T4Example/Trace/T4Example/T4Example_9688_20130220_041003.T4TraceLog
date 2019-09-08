@@ -1,0 +1,327 @@
+﻿<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="T4TraceListener version: [4.0.20.0]" s="0" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="Windows version: [Microsoft Windows NT 6.1.7601 Service Pack 1 - Windows 7]" s="1" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="Microsoft .Net Framework version detected [4.0.30319.18034], expecting [4.0.30319.269], 64bit" s="2" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="GC.IsServerGC: [False], GC.LatencyMode: [Interactive], Debugger.IsAttached: [True]" s="3" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="Environment: UserDomainName: [Michael-HP], UserName: [Michael], UserInteractive: [True]" s="4" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="Processor: [Architecture: AMD64, Level: 21, Revision: 0102, Identifier: AMD64 Family 21 Model 1 Stepping 2, AuthenticAMD, Cores: 6]" s="5" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="Timezone: [(UTC-06:00) Central Time (US &amp; Canada)]" s="6" />
+<i d="0001-01-01T00:00:00.0000000" t="11" c="Trace" m="TraceListeners UseGlobalLock=False, System.Diagnostics.DefaultTraceListener (NOT ThreadSafe), T4.TraceListener.T4TraceListener" s="7" />
+<i d="2013-02-20T04:10:03.2045853-06:00" t="8" c="API" m="Host::New Using ServerURL: http://server.sim.t4login.com" s="1" />
+<i d="2013-02-20T04:10:03.2135858-06:00" t="8" c="API" m="Host::GetServerConfig" s="2" />
+<i d="2013-02-20T04:10:03.2185861-06:00" t="8" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator_T4Example.xml]" s="3" />
+<i d="2013-02-20T04:10:03.6106086-06:00" t="10" c="Data" m="T4TraceListener::CheckFreeDiskSpace Current Free Disk Space: 740,308mb" s="1" />
+<i d="2013-02-20T04:10:03.7716178-06:00" t="8" c="Error" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator_T4Example.xml?dt=634969302032185861] Error: System.Net.WebException: The remote server returned an error: (404) Not Found./n/r   at System.Net.HttpWebRequest.GetResponse()/n/r   at T4.API.Host.GetServerConfigFile(String psURL)" s="4" />
+<i d="2013-02-20T04:10:03.7736179-06:00" t="8" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/CTS_Simulator.xml]" s="5" />
+<i d="2013-02-20T04:10:03.9026253-06:00" t="8" c="API" m="Host::GetServerConfigFile [http://server.sim.t4login.com/Servers/GetServers.aspx?firm=CTS&amp;user=MHatmak&amp;app=T4Example&amp;sys=2]" s="6" />
+<i d="2013-02-20T04:10:03.9896302-06:00" t="8" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim10.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="7" />
+<i d="2013-02-20T04:10:03.9906303-06:00" t="8" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim11.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="8" />
+<i d="2013-02-20T04:10:03.9916303-06:00" t="8" c="Connection" m="ConnectionSvrConfiguration::ConnectionServer::TraceDetails &lt;ConnectionServer Timer=&quot;30000&quot; HostAddress=&quot;sim9.t4login.com:443&quot; MaxReceiveQueueDelay=&quot;30000&quot; LogDepth=&quot;False&quot; MaxSendQueueDelay=&quot;10000&quot; LogMisc=&quot;False&quot; MaxSendQueueMemory=&quot;10000000&quot; MaxSendQueueMessages=&quot;10000&quot; LogOrders=&quot;False&quot; LogMaxFileSize=&quot;5&quot; Type=&quot;SSLConnection&quot; MaxPendingHeartbeats=&quot;25&quot; LogAccounts=&quot;False&quot; LogCompress=&quot;False&quot; Compress=&quot;False&quot; Log=&quot;False&quot; MaxNotReadyMessages=&quot;100&quot; /&gt;/n/r	" s="9" />
+<i d="2013-02-20T04:10:03.9966306-06:00" t="8" c="API" m="Host::GetServerConfig NewVersionAvailable: False, NewVersionRequired: False" s="10" />
+<i d="2013-02-20T04:10:04.0056312-06:00" t="8" c="API" m="Performance::CreateWriteCounters Creating Counters" s="11" />
+<i d="2013-02-20T04:10:04.0066312-06:00" t="8" c="API" m="Performance::CreateWriteCounters Created Counters" s="12" />
+<i d="2013-02-20T04:10:04.0416332-06:00" t="8" c="Connection" m="Connection::CreateConnection Connecting to [T4Sim10]" s="13" />
+<i d="2013-02-20T04:10:04.0446334-06:00" t="8" c="Connection" m="ConnectionThread::New MaxConnectionsPerThreadGroup: 10" s="14" />
+<i d="2013-02-20T04:10:04.0496337-06:00" t="8" c="Connection" m="Connection::New [SSL, &lt;uninitialised&gt;, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Sim10], Server: False, ReceiveQueue: False" s="15" />
+<i d="2013-02-20T04:10:04.0546340-06:00" t="8" c="Connection" m="Performance::CreateCounters Created Counters" s="16" />
+<i d="2013-02-20T04:10:04.0606343-06:00" t="8" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8]" s="17" />
+<i d="2013-02-20T04:10:04.0616344-06:00" t="8" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8] Creating new group" s="18" />
+<i d="2013-02-20T04:10:04.0636345-06:00" t="8" c="Connection" m="ConnectionThread::ThreadGroup::New Type [SSLConnection]" s="19" />
+<i d="2013-02-20T04:10:04.0806354-06:00" t="8" c="Connection" m="ConnectionThread::ThreadGroup::Add Type [SSLConnection, 4e4293e9-3baa-4e95-9f4d-63b5e67e725c], Count: 1" s="20" />
+<i d="2013-02-20T04:10:04.0826356-06:00" t="8" c="Connection" m="ConnectionThread::AddConnection [&lt;uninitialised&gt;, SSLConnection, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8] Connection added, total now: 1, Groups: 1" s="21" />
+<i d="2013-02-20T04:10:04.0956363-06:00" t="8" c="Connection" m="BaseSSLConnection::StartSocket [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Skipping Start as no socket" s="22" />
+<i d="2013-02-20T04:10:04.0966364-06:00" t="8" c="API" m="HostConnection::SetupConnection Connection Created: T4Example-ExecuteAndQuote, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, sim10.t4login.com:443" s="23" />
+<i d="2013-02-20T04:10:04.0986365-06:00" t="8" c="Connection" m="Connection::Connect [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote]" s="24" />
+<i d="2013-02-20T04:10:04.0766352-06:00" t="16" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadConnection [SSLConnection, 4e4293e9-3baa-4e95-9f4d-63b5e67e725c] Starting" s="1" />
+<i d="2013-02-20T04:10:04.0796354-06:00" t="17" c="Connection" m="ConnectionThread::ThreadGroup::OnThreadHeartbeat [SSLConnection, 4e4293e9-3baa-4e95-9f4d-63b5e67e725c] Starting" s="1" />
+<i d="2013-02-20T04:10:05.0246894-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 54mb, GCMem: 3mb, GCGen0: 1, GCGen1: 0, GCGen2: 0" s="1" />
+<i d="2013-02-20T04:10:05.0266896-06:00" t="15" c="Data" m="Performance::OnCPUThread/n/rCounter: PingTime\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: MarketsSubscribed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: MarketUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: AccountsSubscribed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: AccountUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderSubmissionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderRevisionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderPullSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/r" s="2" />
+<i d="2013-02-20T04:10:05.0876930-06:00" t="16" c="Connection" m="Connection::OnConnectTimer [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Calling OnConnectRequest" s="2" />
+<i d="2013-02-20T04:10:05.0936934-06:00" t="16" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Connecting..." s="3" />
+<i d="2013-02-20T04:10:05.0946934-06:00" t="16" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] No Proxy Needed for sim10.t4login.com" s="4" />
+<i d="2013-02-20T04:10:05.1566970-06:00" t="16" c="Connection" m="Connection::GetHostIPAddress [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] DNS of sim10.t4login.com has available ip of 69.44.110.221" s="5" />
+<i d="2013-02-20T04:10:05.1576970-06:00" t="16" c="Connection" m="Connection::GetHostIPAddress [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] DNS of sim10.t4login.com has available ip of 74.201.6.221" s="6" />
+<i d="2013-02-20T04:10:05.1596972-06:00" t="16" c="Connection" m="Connection::GetHostIPAddress [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] DNS of sim10.t4login.com returning ip 74.201.6.221" s="7" />
+<i d="2013-02-20T04:10:05.1606972-06:00" t="16" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] DNS of sim10.t4login.com resolved to 74.201.6.221" s="8" />
+<i d="2013-02-20T04:10:05.1636974-06:00" t="16" c="Connection" m="BaseSSLConnection::OnConnectRequest [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Calling BeginConnect" s="9" />
+<i d="2013-02-20T04:10:05.1346957-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 55mb, GCMem: 2mb, GCGen0: 2, GCGen1: 1, GCGen2: 0" s="3" />
+<i d="2013-02-20T04:10:05.2006995-06:00" t="19" c="Connection" m="BaseSSLConnection::StartSocket [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Starting Socket" s="1" />
+<i d="2013-02-20T04:10:05.5677205-06:00" t="19" c="Connection" m="BaseSSLConnection::RemoteCertificateValidationCallback [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] Received Certificate: CN=*.t4login.com, OU=Secure Link SSL Wildcard, OU=Cunningham Trading Systems, O=Cunningham Trading Systems, STREET=141 W. Jackson Blvd, STREET=Suite 211A, L=Chicago, S=IL, PostalCode=60604, C=US, CN=Network Solutions Certificate Authority, O=Network Solutions L.L.C., C=US" s="2" />
+<i d="2013-02-20T04:10:05.5727208-06:00" t="19" c="API" m="HostConnection::moConnection_Connected [sim10.t4login.com:443] ExecuteAndQuote" s="3" />
+<i d="2013-02-20T04:10:05.5737208-06:00" t="19" c="API" m="Host::OnConnected Connected" s="4" />
+<i d="2013-02-20T04:10:05.6247238-06:00" t="19" c="API" m="HostConnection::LoginMaster [sim10.t4login.com:443] ExecuteAndQuote User: CTS\MHatmak" s="5" />
+<i d="2013-02-20T04:10:06.1387532-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [3%], Memory Usage: 58mb, GCMem: 3mb, GCGen0: 2, GCGen1: 1, GCGen2: 0" s="4" />
+<i d="2013-02-20T04:10:06.1217522-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [LoginResponse] Delayed: 18.4ms, BatchIndex: 1 of 1" s="1" />
+<i d="2013-02-20T04:10:06.1267525-06:00" t="14" c="API" m="MarketList::InitialiseConnectionData Resubscribing to markets" s="2" />
+<i d="2013-02-20T04:10:06.1317528-06:00" t="14" c="API" m="User::ProcessLoginResponse Login Succeeded for MHatmak" s="3" />
+<i d="2013-02-20T04:10:06.1357530-06:00" t="14" c="API" m="UserList::InitialiseConnectionData Requesting User details" s="4" />
+<i d="2013-02-20T04:10:06.1377531-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 18.5ms, BatchCount: 1" s="5" />
+<i d="2013-02-20T04:10:06.2337586-06:00" t="8" c="Data" m="Login Success" s="25" />
+<i d="2013-02-20T04:10:06.1797555-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 5.3ms, BatchCount: 1" s="6" />
+<i d="2013-02-20T04:10:06.1877560-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 1.9ms, BatchCount: 1" s="7" />
+<i d="2013-02-20T04:10:06.2157576-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 11.9ms, BatchCount: 1" s="8" />
+<i d="2013-02-20T04:10:06.2167576-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [AccountListComplete] Delayed: 12.8ms, BatchIndex: 1 of 1" s="9" />
+<i d="2013-02-20T04:10:06.2197578-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 3.4ms, BatchCount: 1" s="10" />
+<i d="2013-02-20T04:10:07.1448107-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 59mb, GCMem: 3mb, GCGen0: 3, GCGen1: 1, GCGen2: 0" s="5" />
+<i d="2013-02-20T04:10:08.1488681-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 4mb, GCGen0: 3, GCGen1: 1, GCGen2: 0" s="6" />
+<i d="2013-02-20T04:10:09.1529256-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 5mb, GCGen0: 3, GCGen1: 1, GCGen2: 0" s="7" />
+<i d="2013-02-20T04:10:10.1589831-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 61mb, GCMem: 2mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="8" />
+<i d="2013-02-20T04:10:11.1630405-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 3mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="9" />
+<i d="2013-02-20T04:10:12.1670980-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 3mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="10" />
+<i d="2013-02-20T04:10:13.1701553-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 4mb, GCGen0: 4, GCGen1: 2, GCGen2: 1" s="11" />
+<i d="2013-02-20T04:10:14.1742128-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 3mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="12" />
+<i d="2013-02-20T04:10:15.1832705-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 4mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="13" />
+<i d="2013-02-20T04:10:16.1873279-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 60mb, GCMem: 5mb, GCGen0: 5, GCGen1: 2, GCGen2: 1" s="14" />
+<i d="2013-02-20T04:10:17.1913853-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 61mb, GCMem: 4mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="15" />
+<i d="2013-02-20T04:10:18.1944427-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 61mb, GCMem: 5mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="16" />
+<i d="2013-02-20T04:10:19.2175012-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 62mb, GCMem: 6mb, GCGen0: 6, GCGen1: 2, GCGen2: 1" s="17" />
+<i d="2013-02-20T04:10:20.2235588-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 59mb, GCMem: 2mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="18" />
+<i d="2013-02-20T04:10:21.2266161-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [4%], Memory Usage: 59mb, GCMem: 3mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="19" />
+<i d="2013-02-20T04:10:22.2656756-06:00" t="8" c="API" m="Account::Subscribe2 Subscribing to [5A3763A4-C8A0-4A6F-B111-934BBFBB8C94], EnableUPL: True" s="26" />
+<i d="2013-02-20T04:10:22.2606753-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 60mb, GCMem: 4mb, GCGen0: 7, GCGen1: 3, GCGen2: 2" s="20" />
+<i d="2013-02-20T04:10:22.2946772-06:00" t="11" c="API" m="AccountList::moTimer_Elapsed Sending Subscription Packet" s="1" />
+<i d="2013-02-20T04:10:23.2647327-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 60mb, GCMem: 3mb, GCGen0: 8, GCGen1: 3, GCGen2: 2" s="21" />
+<i d="2013-02-20T04:10:23.5577495-06:00" t="19" c="Timing" m="Message::New [AccountDetails2] Bytes Parsed 19.8ms, Length: 156" s="6" />
+<i d="2013-02-20T04:10:23.5987518-06:00" t="19" c="Timing" m="Message::New [AccountSnapshot] Bytes Parsed 60.4ms, Length: 339" s="7" />
+<i d="2013-02-20T04:10:23.5997519-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [AccountSnapshot] Delayed: 82.1ms, BatchIndex: 1 of 1" s="11" />
+<i d="2013-02-20T04:10:23.6037521-06:00" t="14" c="API" m="Account::ProcessAccountDetails Account: MHatmak, 5A3763A4-C8A0-4A6F-B111-934BBFBB8C94" s="12" />
+<i d="2013-02-20T04:10:23.6067523-06:00" t="14" c="API" m="Account::ProcessAccountComplete [MHatmak] raising Events" s="13" />
+<i d="2013-02-20T04:10:23.6127526-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Balance: 150000" s="14" />
+<i d="2013-02-20T04:10:23.6157528-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 15.8ms, BatchCount: 1" s="15" />
+<i d="2013-02-20T04:10:23.6837567-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 9.4ms, BatchCount: 1" s="16" />
+<i d="2013-02-20T04:10:23.6847567-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 10.8ms, BatchIndex: 1 of 1" s="17" />
+<i d="2013-02-20T04:10:23.6867568-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 1.5ms, BatchCount: 1" s="18" />
+<i d="2013-02-20T04:10:23.8427658-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 20.1ms, BatchIndex: 1 of 6" s="19" />
+<i d="2013-02-20T04:10:23.8447659-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 21.3ms, BatchIndex: 2 of 6" s="20" />
+<i d="2013-02-20T04:10:23.8457659-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 22.4ms, BatchIndex: 3 of 6" s="21" />
+<i d="2013-02-20T04:10:23.8467660-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 23.5ms, BatchIndex: 4 of 6" s="22" />
+<i d="2013-02-20T04:10:23.8477661-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 24.7ms, BatchIndex: 5 of 6" s="23" />
+<i d="2013-02-20T04:10:23.8507662-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 25.8ms, BatchIndex: 6 of 6" s="24" />
+<i d="2013-02-20T04:10:23.8527663-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 9.2ms, BatchCount: 6" s="25" />
+<i d="2013-02-20T04:10:23.8537664-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 27.3ms, BatchIndex: 1 of 57" s="26" />
+<i d="2013-02-20T04:10:23.8547665-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 28.5ms, BatchIndex: 2 of 57" s="27" />
+<i d="2013-02-20T04:10:23.8557665-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 29.8ms, BatchIndex: 3 of 57" s="28" />
+<i d="2013-02-20T04:10:23.8577666-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 30.9ms, BatchIndex: 4 of 57" s="29" />
+<i d="2013-02-20T04:10:23.8587667-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 32.3ms, BatchIndex: 5 of 57" s="30" />
+<i d="2013-02-20T04:10:23.8607668-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 33.5ms, BatchIndex: 6 of 57" s="31" />
+<i d="2013-02-20T04:10:23.8617669-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 34.7ms, BatchIndex: 7 of 57" s="32" />
+<i d="2013-02-20T04:10:23.8407657-06:00" t="21" c="Timing" m="Message::New [MessageArray] Bytes Parsed 17.5ms, Length: 185061" s="1" />
+<i d="2013-02-20T04:10:23.8417657-06:00" t="21" c="Timing" m="Message::New [Compressed] Bytes Parsed 19.9ms, Length: 34324" s="2" />
+<i d="2013-02-20T04:10:23.8637670-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 36.3ms, BatchIndex: 8 of 57" s="33" />
+<i d="2013-02-20T04:10:23.8657671-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 37.4ms, BatchIndex: 9 of 57" s="34" />
+<i d="2013-02-20T04:10:23.8667671-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 38.3ms, BatchIndex: 10 of 57" s="35" />
+<i d="2013-02-20T04:10:23.8687673-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 39.4ms, BatchIndex: 11 of 57" s="36" />
+<i d="2013-02-20T04:10:23.8697673-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 40.4ms, BatchIndex: 12 of 57" s="37" />
+<i d="2013-02-20T04:10:23.8707674-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 41.5ms, BatchIndex: 13 of 57" s="38" />
+<i d="2013-02-20T04:10:23.8727675-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 42.6ms, BatchIndex: 14 of 57" s="39" />
+<i d="2013-02-20T04:10:23.8737675-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 43.8ms, BatchIndex: 15 of 57" s="40" />
+<i d="2013-02-20T04:10:23.8757677-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 44.8ms, BatchIndex: 16 of 57" s="41" />
+<i d="2013-02-20T04:10:23.8767677-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 45.8ms, BatchIndex: 17 of 57" s="42" />
+<i d="2013-02-20T04:10:23.8777678-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 46.9ms, BatchIndex: 18 of 57" s="43" />
+<i d="2013-02-20T04:10:23.8787678-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 47.9ms, BatchIndex: 19 of 57" s="44" />
+<i d="2013-02-20T04:10:23.8807679-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 48.8ms, BatchIndex: 20 of 57" s="45" />
+<i d="2013-02-20T04:10:23.8817680-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 50.1ms, BatchIndex: 21 of 57" s="46" />
+<i d="2013-02-20T04:10:23.8827681-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 51.1ms, BatchIndex: 22 of 57" s="47" />
+<i d="2013-02-20T04:10:23.8837681-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 52.1ms, BatchIndex: 23 of 57" s="48" />
+<i d="2013-02-20T04:10:23.8847682-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 53.2ms, BatchIndex: 24 of 57" s="49" />
+<i d="2013-02-20T04:10:23.8857682-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 54.2ms, BatchIndex: 25 of 57" s="50" />
+<i d="2013-02-20T04:10:23.8867683-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 55.2ms, BatchIndex: 26 of 57" s="51" />
+<i d="2013-02-20T04:10:23.8887684-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 56.3ms, BatchIndex: 27 of 57" s="52" />
+<i d="2013-02-20T04:10:23.8897685-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 57.3ms, BatchIndex: 28 of 57" s="53" />
+<i d="2013-02-20T04:10:23.8907685-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 58.4ms, BatchIndex: 29 of 57" s="54" />
+<i d="2013-02-20T04:10:23.8917686-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 59.6ms, BatchIndex: 30 of 57" s="55" />
+<i d="2013-02-20T04:10:23.8927686-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 60.6ms, BatchIndex: 31 of 57" s="56" />
+<i d="2013-02-20T04:10:23.8947687-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 61.7ms, BatchIndex: 32 of 57" s="57" />
+<i d="2013-02-20T04:10:23.8957688-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 62.7ms, BatchIndex: 33 of 57" s="58" />
+<i d="2013-02-20T04:10:23.8977689-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 63.7ms, BatchIndex: 34 of 57" s="59" />
+<i d="2013-02-20T04:10:23.8987690-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 65.0ms, BatchIndex: 35 of 57" s="60" />
+<i d="2013-02-20T04:10:23.8997690-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 66.1ms, BatchIndex: 36 of 57" s="61" />
+<i d="2013-02-20T04:10:23.9007691-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 67.0ms, BatchIndex: 37 of 57" s="62" />
+<i d="2013-02-20T04:10:23.9027692-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 67.7ms, BatchIndex: 38 of 57" s="63" />
+<i d="2013-02-20T04:10:23.9047693-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 68.6ms, BatchIndex: 39 of 57" s="64" />
+<i d="2013-02-20T04:10:23.9057694-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 69.8ms, BatchIndex: 40 of 57" s="65" />
+<i d="2013-02-20T04:10:23.9147699-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 78.9ms, BatchIndex: 41 of 57" s="66" />
+<i d="2013-02-20T04:10:23.9167700-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 80.3ms, BatchIndex: 42 of 57" s="67" />
+<i d="2013-02-20T04:10:23.9177701-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 81.3ms, BatchIndex: 43 of 57" s="68" />
+<i d="2013-02-20T04:10:23.9187701-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 82.4ms, BatchIndex: 44 of 57" s="69" />
+<i d="2013-02-20T04:10:23.9197702-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 83.4ms, BatchIndex: 45 of 57" s="70" />
+<i d="2013-02-20T04:10:23.9207702-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 84.3ms, BatchIndex: 46 of 57" s="71" />
+<i d="2013-02-20T04:10:23.9227703-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 85.5ms, BatchIndex: 47 of 57" s="72" />
+<i d="2013-02-20T04:10:23.9247705-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 86.7ms, BatchIndex: 48 of 57" s="73" />
+<i d="2013-02-20T04:10:23.9257705-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 87.8ms, BatchIndex: 49 of 57" s="74" />
+<i d="2013-02-20T04:10:23.9267706-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 89.0ms, BatchIndex: 50 of 57" s="75" />
+<i d="2013-02-20T04:10:23.9277706-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 90.0ms, BatchIndex: 51 of 57" s="76" />
+<i d="2013-02-20T04:10:23.9297707-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 91.1ms, BatchIndex: 52 of 57" s="77" />
+<i d="2013-02-20T04:10:23.9307708-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 91.9ms, BatchIndex: 53 of 57" s="78" />
+<i d="2013-02-20T04:10:23.9327709-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 92.8ms, BatchIndex: 54 of 57" s="79" />
+<i d="2013-02-20T04:10:23.9337710-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 93.9ms, BatchIndex: 55 of 57" s="80" />
+<i d="2013-02-20T04:10:23.9357711-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 95.0ms, BatchIndex: 56 of 57" s="81" />
+<i d="2013-02-20T04:10:23.9367711-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [ContractDetailsMulti] Delayed: 96.2ms, BatchIndex: 57 of 57" s="82" />
+<i d="2013-02-20T04:10:23.9377712-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 84.3ms, BatchCount: 57" s="83" />
+<i d="2013-02-20T04:10:24.2797908-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [6%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 10, GCGen1: 3, GCGen2: 2" s="22" />
+<i d="2013-02-20T04:10:25.2928487-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 11, GCGen1: 3, GCGen2: 2" s="23" />
+<i d="2013-02-20T04:10:26.2969061-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [4%], Memory Usage: 74mb, GCMem: 11mb, GCGen0: 11, GCGen1: 3, GCGen2: 2" s="24" />
+<i d="2013-02-20T04:10:27.3189646-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="25" />
+<i d="2013-02-20T04:10:28.3230220-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="26" />
+<i d="2013-02-20T04:10:29.3270795-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 12, GCGen1: 4, GCGen2: 3" s="27" />
+<i d="2013-02-20T04:10:30.3321369-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 13, GCGen1: 4, GCGen2: 3" s="28" />
+<i d="2013-02-20T04:10:31.3361944-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 13, GCGen1: 4, GCGen2: 3" s="29" />
+<i d="2013-02-20T04:10:32.3402518-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 13, GCGen1: 4, GCGen2: 3" s="30" />
+<i d="2013-02-20T04:10:33.3453093-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 14, GCGen1: 4, GCGen2: 3" s="31" />
+<i d="2013-02-20T04:10:34.3513668-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 14, GCGen1: 4, GCGen2: 3" s="32" />
+<i d="2013-02-20T04:10:35.3554243-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 11mb, GCGen0: 14, GCGen1: 4, GCGen2: 3" s="33" />
+<i d="2013-02-20T04:10:36.3744825-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 74mb, GCMem: 12mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="34" />
+<i d="2013-02-20T04:10:37.3785400-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 74mb, GCMem: 8mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="35" />
+<i d="2013-02-20T04:10:38.3825974-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 74mb, GCMem: 9mb, GCGen0: 15, GCGen1: 5, GCGen2: 4" s="36" />
+<i d="2013-02-20T04:10:39.3876549-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 74mb, GCMem: 8mb, GCGen0: 16, GCGen1: 6, GCGen2: 4" s="37" />
+<i d="2013-02-20T04:10:40.3917123-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 9mb, GCGen0: 16, GCGen1: 6, GCGen2: 4" s="38" />
+<i d="2013-02-20T04:10:41.3957697-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 16, GCGen1: 6, GCGen2: 4" s="39" />
+<i d="2013-02-20T04:10:42.3998272-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 9mb, GCGen0: 17, GCGen1: 6, GCGen2: 4" s="40" />
+<i d="2013-02-20T04:10:43.4028845-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 17, GCGen1: 6, GCGen2: 4" s="41" />
+<i d="2013-02-20T04:10:44.4069420-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 11mb, GCGen0: 17, GCGen1: 6, GCGen2: 4" s="42" />
+<i d="2013-02-20T04:10:45.4109994-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 12mb, GCGen0: 18, GCGen1: 7, GCGen2: 5" s="43" />
+<i d="2013-02-20T04:10:46.4190571-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 18, GCGen1: 7, GCGen2: 5" s="44" />
+<i d="2013-02-20T04:10:47.4241145-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 19, GCGen1: 8, GCGen2: 5" s="45" />
+<i d="2013-02-20T04:10:48.4281720-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 69mb, GCMem: 9mb, GCGen0: 19, GCGen1: 8, GCGen2: 5" s="46" />
+<i d="2013-02-20T04:10:49.4322294-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 19, GCGen1: 8, GCGen2: 5" s="47" />
+<i d="2013-02-20T04:10:49.5442358-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 25.0ms, BatchCount: 1" s="84" />
+<i d="2013-02-20T04:10:50.4362868-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [2%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 20, GCGen1: 8, GCGen2: 5" s="48" />
+<i d="2013-02-20T04:10:51.4423444-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 21, GCGen1: 8, GCGen2: 5" s="49" />
+<i d="2013-02-20T04:10:52.4464018-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 71mb, GCMem: 11mb, GCGen0: 21, GCGen1: 8, GCGen2: 5" s="50" />
+<i d="2013-02-20T04:10:53.4504592-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 12mb, GCGen0: 21, GCGen1: 8, GCGen2: 5" s="51" />
+<i d="2013-02-20T04:10:54.4545167-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 12mb, GCGen0: 22, GCGen1: 9, GCGen2: 6" s="52" />
+<i d="2013-02-20T04:10:55.4585741-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 8mb, GCGen0: 22, GCGen1: 9, GCGen2: 6" s="53" />
+<i d="2013-02-20T04:10:56.4626315-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 9mb, GCGen0: 22, GCGen1: 9, GCGen2: 6" s="54" />
+<i d="2013-02-20T04:10:57.4676890-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 8mb, GCGen0: 23, GCGen1: 9, GCGen2: 6" s="55" />
+<i d="2013-02-20T04:10:58.4717464-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 9mb, GCGen0: 23, GCGen1: 9, GCGen2: 6" s="56" />
+<i d="2013-02-20T04:10:58.5927534-06:00" t="8" c="API" m="Market::SubscribeToDepth Market: DLCME_20130300_ZWH3, Buffer: Smart, Levels: BestOnly" s="27" />
+<i d="2013-02-20T04:10:58.6757581-06:00" t="19" c="Timing" m="Message::New [MarketSnapshot] Bytes Parsed 11.6ms, Length: 2322" s="8" />
+<i d="2013-02-20T04:10:58.6767582-06:00" t="19" c="Timing" m="Message::New [Compressed] Bytes Parsed 13.1ms, Length: 1275" s="9" />
+<i d="2013-02-20T04:10:58.6777582-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [MarketSnapshot] Delayed: 13.8ms, BatchIndex: 1 of 1" s="85" />
+<i d="2013-02-20T04:10:58.6977594-06:00" t="14" c="Data" m="DepthUpdate: D-30m:Wheat Mar13, LastTrade: 1@7336" s="86" />
+<i d="2013-02-20T04:10:58.7057598-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 27.8ms, BatchCount: 1" s="87" />
+<i d="2013-02-20T04:10:59.4758039-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 23, GCGen1: 9, GCGen2: 6" s="57" />
+<i d="2013-02-20T04:11:00.4808613-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 10mb, GCGen0: 24, GCGen1: 9, GCGen2: 6" s="58" />
+<i d="2013-02-20T04:11:01.4849188-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 11mb, GCGen0: 24, GCGen1: 9, GCGen2: 6" s="59" />
+<i d="2013-02-20T04:11:02.4889762-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 11mb, GCGen0: 24, GCGen1: 9, GCGen2: 6" s="60" />
+<i d="2013-02-20T04:11:03.4940337-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 25, GCGen1: 10, GCGen2: 7" s="61" />
+<i d="2013-02-20T04:11:04.4980911-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 8mb, GCGen0: 25, GCGen1: 10, GCGen2: 7" s="62" />
+<i d="2013-02-20T04:11:05.5021485-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 9mb, GCGen0: 25, GCGen1: 10, GCGen2: 7" s="63" />
+<i d="2013-02-20T04:11:05.5031486-06:00" t="15" c="Data" m="Performance::OnCPUThread/n/rCounter: PingTime\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: MarketsSubscribed\_Total, Sample: 1, High: 1, Low: 1, Average: 0/n/rCounter: MarketUpdates\_Total, Sample: 0, High: 2, Low: 0, Average: 0/n/rCounter: AccountsSubscribed\_Total, Sample: 1, High: 1, Low: 1, Average: 1/n/rCounter: AccountUpdates\_Total, Sample: 0, High: 1, Low: 0, Average: 0/n/rCounter: OrderUpdates\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderSubmissionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderRevisionSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/rCounter: OrderPullSpeed\_Total, Sample: 0, High: 0, Low: 0, Average: 0/n/r" s="64" />
+<i d="2013-02-20T04:11:06.0921823-06:00" t="17" c="Connection" m="Connection::LogUsage [SSL, sim10.t4login.com:443, B1FF4BFA-D1D0-499F-AC04-DEE9AC3E02A8, T4Example-ExecuteAndQuote] MsgSent: 13/13, DataSent: 1/1kb, MsgRec: 13/13, DataRec: 208/208kb, Time Connected: 00:01:00.5204615, AvgSent: 0kbitsps, AvgRec: 28kbitsps, SendQueueCount: 65/65, SendQueueSize: 0/0kb" s="2" />
+<i d="2013-02-20T04:11:06.5072060-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 25, GCGen1: 10, GCGen2: 7" s="65" />
+<i d="2013-02-20T04:11:07.5132636-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 70mb, GCMem: 9mb, GCGen0: 26, GCGen1: 10, GCGen2: 7" s="66" />
+<i d="2013-02-20T04:11:08.5173210-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 70mb, GCMem: 10mb, GCGen0: 26, GCGen1: 10, GCGen2: 7" s="67" />
+<i d="2013-02-20T04:11:09.5213784-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 11mb, GCGen0: 26, GCGen1: 10, GCGen2: 7" s="68" />
+<i d="2013-02-20T04:11:10.5254359-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 71mb, GCMem: 10mb, GCGen0: 27, GCGen1: 10, GCGen2: 7" s="69" />
+<i d="2013-02-20T04:11:11.5544947-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 71mb, GCMem: 11mb, GCGen0: 27, GCGen1: 10, GCGen2: 7" s="70" />
+<i d="2013-02-20T04:11:11.6324992-06:00" t="14" c="API" m="Order::ProcessOrderUpdate 7DC413FF-625D-4C48-B239-C717271B84B2, Trades: 0, TradeLegs: 0" s="88" />
+<i d="2013-02-20T04:11:11.6344993-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: None, , Change: SubmissionRiskSuccess" s="89" />
+<i d="2013-02-20T04:11:11.6374995-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 20.4ms, BatchCount: 1" s="90" />
+<i d="2013-02-20T04:11:11.6384995-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [AccountPosition2] Delayed: 20.8ms, BatchIndex: 1 of 3" s="91" />
+<i d="2013-02-20T04:11:11.6465000-06:00" t="14" c="API" m="Market::SubscribeToDepth Market: DLCME_20130300_ZWH3, Buffer: NoSubscription, Levels: BestOnly" s="92" />
+<i d="2013-02-20T04:11:11.6565006-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Market: D-30m:Wheat Mar13, Net: 0" s="93" />
+<i d="2013-02-20T04:11:11.6575006-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [OrderUpdateMulti2] Delayed: 34.3ms, BatchIndex: 2 of 3" s="94" />
+<i d="2013-02-20T04:11:11.6605008-06:00" t="14" c="API" m="Order::ProcessOrderStatus 7DC413FF-625D-4C48-B239-C717271B84B2" s="95" />
+<i d="2013-02-20T04:11:11.6615008-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: None, , Change: SubmissionSent" s="96" />
+<i d="2013-02-20T04:11:11.6635010-06:00" t="14" c="API" m="Host::OnReceiveQueue Message [OrderUpdateMulti2] Delayed: 36.4ms, BatchIndex: 3 of 3" s="97" />
+<i d="2013-02-20T04:11:11.6655011-06:00" t="14" c="API" m="Order::ProcessOrderStatus 7DC413FF-625D-4C48-B239-C717271B84B2" s="98" />
+<i d="2013-02-20T04:11:11.6665011-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: Working, , Change: SubmissionSuccess" s="99" />
+<i d="2013-02-20T04:11:11.6675012-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 29.4ms, BatchCount: 3" s="100" />
+<i d="2013-02-20T04:11:11.7285047-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 5.3ms, BatchCount: 1" s="101" />
+<i d="2013-02-20T04:11:12.5585522-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [2%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 27, GCGen1: 10, GCGen2: 7" s="71" />
+<i d="2013-02-20T04:11:13.5646097-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 29, GCGen1: 11, GCGen2: 8" s="72" />
+<i d="2013-02-20T04:11:14.5686671-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 29, GCGen1: 11, GCGen2: 8" s="73" />
+<i d="2013-02-20T04:11:15.5727246-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 29, GCGen1: 11, GCGen2: 8" s="74" />
+<i d="2013-02-20T04:11:16.5777820-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 30, GCGen1: 11, GCGen2: 8" s="75" />
+<i d="2013-02-20T04:11:17.5818395-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 30, GCGen1: 11, GCGen2: 8" s="76" />
+<i d="2013-02-20T04:11:18.5858969-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 30, GCGen1: 11, GCGen2: 8" s="77" />
+<i d="2013-02-20T04:11:19.5899543-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 30, GCGen1: 11, GCGen2: 8" s="78" />
+<i d="2013-02-20T04:11:20.5960119-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 31, GCGen1: 11, GCGen2: 8" s="79" />
+<i d="2013-02-20T04:11:21.5990692-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 31, GCGen1: 11, GCGen2: 8" s="80" />
+<i d="2013-02-20T04:11:22.6031267-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 31, GCGen1: 11, GCGen2: 8" s="81" />
+<i d="2013-02-20T04:11:23.6091842-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 33, GCGen1: 12, GCGen2: 9" s="82" />
+<i d="2013-02-20T04:11:24.6132416-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 33, GCGen1: 12, GCGen2: 9" s="83" />
+<i d="2013-02-20T04:11:25.6162990-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 33, GCGen1: 12, GCGen2: 9" s="84" />
+<i d="2013-02-20T04:11:26.6203564-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 33, GCGen1: 12, GCGen2: 9" s="85" />
+<i d="2013-02-20T04:11:27.6254139-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 34, GCGen1: 12, GCGen2: 9" s="86" />
+<i d="2013-02-20T04:11:28.6284713-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 34, GCGen1: 12, GCGen2: 9" s="87" />
+<i d="2013-02-20T04:11:29.6325287-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 34, GCGen1: 12, GCGen2: 9" s="88" />
+<i d="2013-02-20T04:11:29.9545471-06:00" t="8" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: Working, , Change: SubmissionSuccess" s="28" />
+<i d="2013-02-20T04:11:29.9885491-06:00" t="14" c="API" m="Order::ProcessOrderStatus 7DC413FF-625D-4C48-B239-C717271B84B2" s="102" />
+<i d="2013-02-20T04:11:29.9905492-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: Working, , Change: PullRiskSuccess" s="103" />
+<i d="2013-02-20T04:11:29.9925493-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 4.2ms, BatchCount: 1" s="104" />
+<i d="2013-02-20T04:11:29.9935494-06:00" t="14" c="API" m="Order::ProcessOrderStatus 7DC413FF-625D-4C48-B239-C717271B84B2" s="105" />
+<i d="2013-02-20T04:11:29.9945494-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: Working, , Change: PullSent" s="106" />
+<i d="2013-02-20T04:11:29.9955495-06:00" t="14" c="API" m="Order::ProcessOrderStatus 7DC413FF-625D-4C48-B239-C717271B84B2" s="107" />
+<i d="2013-02-20T04:11:29.9965495-06:00" t="14" c="Data" m="OrderUpdate: 7DC413FF-625D-4C48-B239-C717271B84B2, Status: Finished, , Change: PullSuccess" s="108" />
+<i d="2013-02-20T04:11:29.9975496-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Market: D-30m:Wheat Mar13, Net: 0" s="109" />
+<i d="2013-02-20T04:11:29.9985497-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 5.4ms, BatchCount: 3" s="110" />
+<i d="2013-02-20T04:11:30.6505870-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 35, GCGen1: 12, GCGen2: 9" s="89" />
+<i d="2013-02-20T04:11:31.6546444-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 11mb, GCGen0: 35, GCGen1: 12, GCGen2: 9" s="90" />
+<i d="2013-02-20T04:11:32.6627020-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 12mb, GCGen0: 35, GCGen1: 12, GCGen2: 9" s="91" />
+<i d="2013-02-20T04:11:33.6667595-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 13mb, GCGen0: 36, GCGen1: 13, GCGen2: 10" s="92" />
+<i d="2013-02-20T04:11:34.6708169-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 8mb, GCGen0: 36, GCGen1: 13, GCGen2: 10" s="93" />
+<i d="2013-02-20T04:11:35.6758744-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 8mb, GCGen0: 37, GCGen1: 13, GCGen2: 10" s="94" />
+<i d="2013-02-20T04:11:35.9438897-06:00" t="14" c="API" m="Order::ProcessOrderUpdate FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Trades: 0, TradeLegs: 0" s="111" />
+<i d="2013-02-20T04:11:35.9458898-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: None, , Change: SubmissionRiskSuccess" s="112" />
+<i d="2013-02-20T04:11:35.9468899-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.9ms, BatchCount: 1" s="113" />
+<i d="2013-02-20T04:11:35.9518902-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Market: D-30m:Wheat Mar13, Net: 0" s="114" />
+<i d="2013-02-20T04:11:35.9528902-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 1.1ms, BatchCount: 1" s="115" />
+<i d="2013-02-20T04:11:35.9538903-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="116" />
+<i d="2013-02-20T04:11:35.9548903-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: None, , Change: SubmissionSent" s="117" />
+<i d="2013-02-20T04:11:35.9558904-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.0ms, BatchCount: 1" s="118" />
+<i d="2013-02-20T04:11:35.9758915-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="119" />
+<i d="2013-02-20T04:11:35.9768916-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: SubmissionSuccess" s="120" />
+<i d="2013-02-20T04:11:35.9778917-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.1ms, BatchCount: 1" s="121" />
+<i d="2013-02-20T04:11:36.6989329-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 9mb, GCGen0: 37, GCGen1: 13, GCGen2: 10" s="95" />
+<i d="2013-02-20T04:11:37.7029903-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 37, GCGen1: 13, GCGen2: 10" s="96" />
+<i d="2013-02-20T04:11:38.7080478-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 38, GCGen1: 13, GCGen2: 10" s="97" />
+<i d="2013-02-20T04:11:39.7121052-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 10mb, GCGen0: 38, GCGen1: 13, GCGen2: 10" s="98" />
+<i d="2013-02-20T04:11:39.7961101-06:00" t="8" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: SubmissionSuccess" s="29" />
+<i d="2013-02-20T04:11:39.8261118-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="122" />
+<i d="2013-02-20T04:11:39.8271118-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: RevisionRiskSuccess" s="123" />
+<i d="2013-02-20T04:11:39.8281119-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.3ms, BatchCount: 1" s="124" />
+<i d="2013-02-20T04:11:39.8291119-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Market: D-30m:Wheat Mar13, Net: 0" s="125" />
+<i d="2013-02-20T04:11:39.8301120-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 1.0ms, BatchCount: 1" s="126" />
+<i d="2013-02-20T04:11:39.8321121-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="127" />
+<i d="2013-02-20T04:11:39.8331122-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: RevisionSent" s="128" />
+<i d="2013-02-20T04:11:39.8341122-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.4ms, BatchCount: 1" s="129" />
+<i d="2013-02-20T04:11:39.8461129-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="130" />
+<i d="2013-02-20T04:11:39.8481130-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: RevisionSuccess" s="131" />
+<i d="2013-02-20T04:11:39.8481130-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.1ms, BatchCount: 1" s="132" />
+<i d="2013-02-20T04:11:40.7161627-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 73mb, GCMem: 11mb, GCGen0: 38, GCGen1: 13, GCGen2: 10" s="99" />
+<i d="2013-02-20T04:11:41.7202201-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 12mb, GCGen0: 38, GCGen1: 13, GCGen2: 10" s="100" />
+<i d="2013-02-20T04:11:42.3582566-06:00" t="8" c="API" m="Order::CreateRevise No changes made to order: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="30" />
+<i d="2013-02-20T04:11:42.7252776-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [1%], Memory Usage: 73mb, GCMem: 11mb, GCGen0: 39, GCGen1: 13, GCGen2: 10" s="101" />
+<i d="2013-02-20T04:11:43.7293350-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 73mb, GCMem: 12mb, GCGen0: 40, GCGen1: 14, GCGen2: 11" s="102" />
+<i d="2013-02-20T04:11:44.7333924-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 40, GCGen1: 14, GCGen2: 11" s="103" />
+<i d="2013-02-20T04:11:45.7374499-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 40, GCGen1: 14, GCGen2: 11" s="104" />
+<i d="2013-02-20T04:11:46.7415073-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 41, GCGen1: 14, GCGen2: 11" s="105" />
+<i d="2013-02-20T04:11:47.7445647-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 41, GCGen1: 14, GCGen2: 11" s="106" />
+<i d="2013-02-20T04:11:48.7486221-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 41, GCGen1: 14, GCGen2: 11" s="107" />
+<i d="2013-02-20T04:11:49.7536796-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 42, GCGen1: 14, GCGen2: 11" s="108" />
+<i d="2013-02-20T04:11:50.7577370-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 42, GCGen1: 14, GCGen2: 11" s="109" />
+<i d="2013-02-20T04:11:51.7617945-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 42, GCGen1: 14, GCGen2: 11" s="110" />
+<i d="2013-02-20T04:11:52.7658519-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 12mb, GCGen0: 42, GCGen1: 14, GCGen2: 11" s="111" />
+<i d="2013-02-20T04:11:53.7699093-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 13mb, GCGen0: 43, GCGen1: 15, GCGen2: 12" s="112" />
+<i d="2013-02-20T04:11:54.7739667-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 8mb, GCGen0: 43, GCGen1: 15, GCGen2: 12" s="113" />
+<i d="2013-02-20T04:11:55.7780242-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 44, GCGen1: 15, GCGen2: 12" s="114" />
+<i d="2013-02-20T04:11:56.7820816-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 9mb, GCGen0: 44, GCGen1: 15, GCGen2: 12" s="115" />
+<i d="2013-02-20T04:11:57.7861390-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 44, GCGen1: 15, GCGen2: 12" s="116" />
+<i d="2013-02-20T04:11:58.7901965-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 45, GCGen1: 15, GCGen2: 12" s="117" />
+<i d="2013-02-20T04:11:59.7942539-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 10mb, GCGen0: 45, GCGen1: 15, GCGen2: 12" s="118" />
+<i d="2013-02-20T04:12:00.7983113-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 45, GCGen1: 15, GCGen2: 12" s="119" />
+<i d="2013-02-20T04:12:01.6503600-06:00" t="8" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: RevisionSuccess" s="31" />
+<i d="2013-02-20T04:12:01.6953626-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="133" />
+<i d="2013-02-20T04:12:01.6963627-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: PullRiskSuccess" s="134" />
+<i d="2013-02-20T04:12:01.6983628-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 6.6ms, BatchCount: 1" s="135" />
+<i d="2013-02-20T04:12:01.6993628-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="136" />
+<i d="2013-02-20T04:12:01.7003629-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Working, , Change: PullSent" s="137" />
+<i d="2013-02-20T04:12:01.7003629-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 2.1ms, BatchCount: 1" s="138" />
+<i d="2013-02-20T04:12:01.7223642-06:00" t="14" c="API" m="Order::ProcessOrderStatus FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840" s="139" />
+<i d="2013-02-20T04:12:01.7243643-06:00" t="14" c="Data" m="OrderUpdate: FC2601D3-1A4F-4AD6-B27B-B82CEB0DF840, Status: Finished, , Change: PullSuccess" s="140" />
+<i d="2013-02-20T04:12:01.7253643-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 3.3ms, BatchCount: 1" s="141" />
+<i d="2013-02-20T04:12:01.7263644-06:00" t="14" c="Data" m="Account: Michael Hatmaker, Market: D-30m:Wheat Mar13, Net: 0" s="142" />
+<i d="2013-02-20T04:12:01.7273644-06:00" t="14" c="Timing" m="Host::OnReceiveQueue Duration: 1.1ms, BatchCount: 1" s="143" />
+<i d="2013-02-20T04:12:01.8043689-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 46, GCGen1: 15, GCGen2: 12" s="120" />
+<i d="2013-02-20T04:12:02.8084263-06:00" t="15" c="API" m="Performance::OnCPUThread CPU Usage: [0%], Memory Usage: 72mb, GCMem: 11mb, GCGen0: 46, GCGen1: 15, GCGen2: 12" s="121" />

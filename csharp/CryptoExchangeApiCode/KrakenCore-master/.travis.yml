@@ -1,0 +1,18 @@
+language: csharp
+
+os:
+  - osx
+  - linux
+
+sudo: required
+dist: trusty # Ubuntu 14.04
+
+osx_image: xcode9.1 # OS X 10.12
+
+mono: none
+dotnet: 2.0.0
+
+script:
+  - ulimit -n 4096
+  - dotnet restore
+  - dotnet build

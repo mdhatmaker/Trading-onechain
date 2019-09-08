@@ -1,0 +1,8 @@
+
+Standard                   |   Goal
+---------------------------+----------------------------
+3D UI buttons / controls   |   Flat
+White & gray background    |   Black background & white text
+Arial font                 |   Segoe font
+Multiple windows           |   One window with tabs
+                           |   Images (e.g. skyline)

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E14FC75D-0829-43AF-B037-7A485F46A4A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonkeyLightning</RootNamespace>
+    <AssemblyName>MonkeyLightning</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MonkeyLightning.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="T4API.40">
+      <HintPath>..\..\bin\T4API.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4ChartDataAPI.40, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\T4ChartDataAPI.40.dll</HintPath>
+    </Reference>
+    <Reference Include="T4Definitions.40">
+      <HintPath>..\..\bin\T4Definitions.40.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChartDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartDataForm.Designer.cs">
+      <DependentUpon>ChartDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonkeyLightningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonkeyLightningForm.Designer.cs">
+      <DependentUpon>MonkeyLightningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenRulesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldenRulesForm.Designer.cs">
+      <DependentUpon>GoldenRulesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RulePanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RulePanelControl.Designer.cs">
+      <DependentUpon>RulePanelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RuleSheetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RuleSheetControl.Designer.cs">
+      <DependentUpon>RuleSheetControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TradeBuilderForm.Designer.cs">
+      <DependentUpon>TradeBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeRowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TradeRowControl.Designer.cs">
+      <DependentUpon>TradeRowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TradeRule.cs" />
+    <EmbeddedResource Include="ChartDataForm.resx">
+      <DependentUpon>ChartDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonkeyLightningForm.resx">
+      <DependentUpon>MonkeyLightningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldenRulesForm.resx">
+      <DependentUpon>GoldenRulesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RulePanelControl.resx">
+      <DependentUpon>RulePanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuleSheetControl.resx">
+      <DependentUpon>RuleSheetControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeBuilderForm.resx">
+      <DependentUpon>TradeBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TradeRowControl.resx">
+      <DependentUpon>TradeRowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency stop %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkey Lightning %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-1-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-1-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chimpanzee-SoundBible.com-901310467.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkeys Monkeying Around-SoundBible.com-1738007729.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Visual Studio 2010\Projects\MiscUtil\MiscUtil.csproj">
+      <Project>{2907d3ae-86ed-443e-bf42-f51fe4b1c809}</Project>
+      <Name>MiscUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EZAPI.Messaging\EZAPI.Messaging.csproj">
+      <Project>{f8a80232-5a22-43d7-91e3-9eec1e6a0068}</Project>
+      <Name>EZAPI.Messaging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Recycle Arrow Icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SirenBlink.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowDown1.24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "C:\Program Files\CTS\T4ClientSim\bin\System.Data.SQLite.40.DLL" "$(TargetDir)"
+copy "C:\Program Files\CTS\T4ClientSim\bin\zlib1.dll" "$(TargetDir)"
+copy "C:\Program Files\CTS\T4ClientSim\bin\t4connection.40.dll" "$(TargetDir)"
+copy "C:\Program Files\CTS\T4ClientSim\bin\t4message.40.dll" "$(TargetDir)"
+copy "C:\Program Files\CTS\T4ClientSim\bin\t4tracelistener.40.dll" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

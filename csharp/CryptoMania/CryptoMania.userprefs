@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{37E47EFC-E517-4344-99B1-648B36A0B1F9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CryptoMania/Program.cs">
+    <Files>
+      <File FileName="../mylibs/CryptoAPIs/Crypto.cs" Line="182" Column="13" />
+      <File FileName="../mylibs/CryptoAPIs/CryptoModels.cs" Line="151" Column="42" />
+      <File FileName="../mylibs/CryptoAPIs/ExchangeX/CryptoCompare.cs" Line="35" Column="18" />
+      <File FileName="CryptoMania/Program.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Exchange/Binance.cs" line="215" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/ExchangeX/Coinbase.cs" line="98" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Trades/Binance.Tests.cs" line="492" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Crypto.cs" line="359" column="20" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Exchange/Clients/Bittrex/BittrexClient.cs" line="367" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/CryptoModels.cs" line="324" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Exchange/Bitfinex.cs" line="209" column="1" />
+      <Breakpoint file="/Users/michael/Dropbox/dev/csharp/mylibs/CryptoAPIs/Exchange/Clients/Poloniex/PoloniexApi.cs" line="197" column="1" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/mylibs/CryptoAPIs/ExchangeX/CryptoCompare.cs" line="67" column="1" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/mylibs/CryptoAPIs/Crypto.cs" line="181" column="1" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/CryptoMania/CryptoMania/Program.cs" relfile="CryptoMania/Program.cs" line="15" column="37" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/mylibs/CryptoAPIs/ExchangeX/CryptoCompare.cs" line="23" column="1" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/mylibs/CryptoAPIs/ExchangeX/CryptoCompare.cs" line="20" column="1" />
+      <Breakpoint file="/Users/michael/Documents/GitHub/source/csharp/CryptoMania/CryptoMania/Program.cs" relfile="CryptoMania/Program.cs" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CryptoMania PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,39 @@
+﻿Build started 3/2/2013 12:38:27 AM.
+     1>Project "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\T4Examplecpp\T4Examplecpp.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\T4Examplecpp.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4API.40.dll" /FU"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Definitions.40.dll" /errorReport:prompt /clr:nostdlib stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\T4Examplecpp.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4API.40.dll" /FU"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Definitions.40.dll" /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp T4Examplecpp.cpp
+         AssemblyInfo.cpp
+         T4Examplecpp.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /TP /errorReport:prompt "C:\Users\Michael\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Examplecpp.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:x64\Debug\T4Examplecpp.frmMain.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Examplecpp.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE:NO /FIXED:NO /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\T4Examplecpp.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         T4Examplecpp.vcxproj -> C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Examplecpp.exe
+       PostBuildEvent:
+         copy app.config "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\T4Examplecpp.exe.config"
+         copy "C:\Program Files\CTS\T4ClientSim\bin\System.Data.SQLite.40.DLL" "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\"
+         copy "C:\Program Files\CTS\T4ClientSim\bin\zlib1.dll" "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\"
+         copy "C:\Program Files\CTS\T4ClientSim\bin\t4connection.40.dll" "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\"
+         copy "C:\Program Files\CTS\T4ClientSim\bin\t4message.40.dll" "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\"
+         copy "C:\Program Files\CTS\T4ClientSim\bin\t4tracelistener.40.dll" "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\x64\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Michael\Documents\Visual Studio 2012\Projects\MonkeyLightning\T4Examplecpp\T4Examplecpp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08

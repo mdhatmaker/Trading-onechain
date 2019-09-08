@@ -1,0 +1,33 @@
+USER: OneChain Business Managers
+===========================
+I want to know how many trades we made this week
+I want to know who my top customer is
+I want to know what our profit/loss is for the month
+I want to know how much reserve we have in wallets including Trezor
+I want to reset a client's password
+I want to update a client's personal information
+I want to secure a client's wallet/bank/personal information
+I want to see tax information
+
+USER: OneChain System Maintenance / IT / Diagnosis
+=============================================
+I want to find OneChain systems that are not working
+I want to find market data feeds/services that are not working
+I want to find exchanges that are not working
+I want to find where we are running low on disk space 
+I want to know where we are having network slowdowns
+
+USER: Trader
+=============
+I want to buy crypto
+I want to sell crypto
+
+USER: Customer
+===============
+I want to buy crypto
+I want to sell crypto
+I want to exchange crypto
+I want to see the trades I've made
+I want to want to update my password
+I want to want to reset my password
+I want to know my tax information
