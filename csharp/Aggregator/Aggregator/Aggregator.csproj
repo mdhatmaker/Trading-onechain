@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bittrex.Net" Version="2.1.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="websocket-sharp-with-proxy-support" Version="1.9.1" />
     <PackageReference Include="Bittrex.Net" Version="2.1.2" />
     <PackageReference Include="Binance.Net" Version="3.1.2" />
